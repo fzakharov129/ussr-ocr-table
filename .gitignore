@@ -44,3 +44,5 @@ Thumbs.db
 # Generated arrays
 *.npy
 *.npz
+
+*.docx
