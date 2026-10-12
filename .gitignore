@@ -1,0 +1,46 @@
+# Input data and generated results
+/data/
+/outputs/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.template
+*.key
+
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Externally supplied model weights and archives
+*.pt
+*.pth
+*.onnx
+*.zip
+
+# Generated arrays
+*.npy
+*.npz

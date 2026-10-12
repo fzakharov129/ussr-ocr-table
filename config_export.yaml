@@ -1,0 +1,6 @@
+paths:
+  output_dir: outputs
+  json_name: book.json
+  xlsx_name: book.xlsx
+
+axis_label: Строка / Столбец

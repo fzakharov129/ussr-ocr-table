@@ -1,0 +1,23 @@
+# Detection
+ultralytics
+
+# OCR (CPU runtime; use paddlepaddle-gpu instead for a GPU setup)
+paddleocr>=3.0,<4.0
+paddlepaddle>=3.0,<4.0
+
+# Images and arrays
+opencv-python
+numpy
+
+# Yandex AI Studio (OpenAI-compatible SDK)
+openai
+python-dotenv
+
+# YAML configuration
+PyYAML
+
+# Excel export
+openpyxl
+
+# Progress bars
+tqdm

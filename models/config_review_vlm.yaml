@@ -1,0 +1,34 @@
+provider: alibaba
+model: qwen3.6-35b-a3b
+api_key_env: QWEN_API_KEY
+base_url_env: QWEN_BASE_URL
+enable_thinking: false
+
+# Для перехода на Яндекс замени настройки выше:
+# provider: yandex
+# model: deepseek-v4.1-flash/latest
+# api_key_env: YANDEX_CLOUD_API_KEY
+# base_url_env: YANDEX_CLOUD_BASE_URL
+# folder_id_env: YANDEX_CLOUD_FOLDER
+
+batch_size: 4
+timeout: 60
+max_retries: 1
+max_output_tokens: 4096
+temperature: 0.3
+
+montage:
+  gap: 16
+  label_width: 65
+  max_width: 4096
+  max_height: 4096
+
+number_padding: 0
+
+paths:
+  env: .env
+  output_dir: outputs
+  output_name: review_results.json
+
+header_review:
+  batch_size: 20
