@@ -2,7 +2,7 @@ models:
 
   headers:
     batch_size: 4
-    archive: "yolo_cell_detection_headers.zip"
+    archive: "yolo_cell_detection_headers_v2.zip"
 
     classes:
       0: "column_header"
@@ -17,7 +17,7 @@ models:
 
   value:
     batch_size: 4
-    archive: "yolo_cell_detection_value.zip"
+    archive: "yolo_cell_detection_value_v2.zip"
 
     classes:
       0: "value"
@@ -31,7 +31,7 @@ models:
 
   empty:
     batch_size: 4
-    archive: "yolo_empty_cell_detection.zip"
+    archive: "yolo_empty_cell_detection_v2.zip"
 
     classes:
       0: "empty"

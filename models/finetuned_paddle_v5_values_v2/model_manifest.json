@@ -1,0 +1,16 @@
+{
+  "kind": "value",
+  "model": "cyrillic_PP-OCRv5_mobile_rec",
+  "runtime_device": "cpu",
+  "paddlepaddle": "3.2.0",
+  "paddleocr_sources": "3.3.0",
+  "weights": "best_model.pdparams",
+  "dictionary_sha256": "db40aa52ceb112055be80c694afdf655d5d2c4f7873704524cc16a447ca913ba",
+  "config_origin": "Inference configuration inherited from values v1; verify against server training_config when available",
+  "training_metadata_included": false,
+  "normalization": "BGR; 3x48x320; keep aspect ratio; right zero padding; pixels in [-1,1]",
+  "detector_required": false,
+  "allowed_characters": "0123456789.",
+  "weights_included": true,
+  "version": "v2"
+}

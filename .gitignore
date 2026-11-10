@@ -1,6 +1,7 @@
 # Input data and generated results
 /data/
 /outputs/
+/workspace/
 
 # Local configuration and secrets
 .env
@@ -40,9 +41,15 @@ Thumbs.db
 *.pth
 *.onnx
 *.zip
+!/models/yolo_cell_detection_headers_v2.zip
+!/models/yolo_cell_detection_value_v2.zip
+!/models/yolo_empty_cell_detection_v2.zip
 
 # Generated arrays
 *.npy
 *.npz
 
 *.docx
+
+# Extracted OCR models and architecture sources
+/models/.runtime/

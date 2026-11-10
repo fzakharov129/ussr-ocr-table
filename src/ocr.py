@@ -1,18 +1,18 @@
 import math
 import re
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import cv2
 import numpy as np
 from paddleocr import TextDetection, TextRecognition
-from dataclasses import dataclass, field
-
 from tqdm import tqdm
 
-from .entities import Cell, CellType
+from .entities import NEEDS_REVIEW, RECOGNIZED, Cell, CellType
+from .exceptions import OCRError
 from .image_io import crop_cell, load_page
+from .model_archives import find_model_source, prepare_model_source
 from .validations import OCRChecks
-from .entities import Cell, CellType, RECOGNIZED, NEEDS_REVIEW
 
 
 DETECTION_MODEL = "PP-OCRv5_mobile_det"
@@ -23,21 +23,71 @@ def load_ocr_models(
     device: str = "cpu",
     detection_model: str = DETECTION_MODEL,
     recognition_model: str = RECOGNITION_MODEL,
+    *,
+    models_dir: str | Path | None = None,
+    headers_model_dir: str | Path | None = None,
+    values_model_dir: str | Path | None = None,
+    use_finetuned: bool = True,
+    recognition_weights: str = "best_model.pdparams",
+    repo: str | Path | None = None,
 ) -> dict:
-    """Создаёт OCR-модели без ускорения oneDNN."""
+    """Загрузить отдельные распознаватели headers/values и детектор строк.
+
+    Папки или ZIP поддерживаются; ZIP при автоматическом выборе приоритетнее.
+    По умолчанию обе дообученные модели обязательны. Стандартная модель
+    используется только при явном use_finetuned=False.
+    """
+    from .paddle_recognition import FinetunedRecognizer
+
+    root = Path(models_dir or Path(__file__).resolve().parents[1] / "models").resolve()
+    if not use_finetuned and (headers_model_dir is not None or values_model_dir is not None):
+        raise OCRError("Папки дообученных моделей требуют use_finetuned=True")
+    profiles = (
+        ("headers", headers_model_dir, "finetuned_paddle_v5_headers_v2"),
+        ("values", values_model_dir, "finetuned_paddle_v5_values_v2"),
+    )
+    prepared = {}
+    if use_finetuned:
+        for kind, explicit, default in profiles:
+            source = (
+                Path(explicit).resolve() if explicit is not None
+                else find_model_source(root, default)
+            )
+            folder = prepare_model_source(source, models_dir=root, weights=recognition_weights)
+            name = source.stem if source.is_file() else source.name
+            prepared[kind] = (folder, name)
+    standard = None
+    recognizers = {}
+    names = {}
+    for kind, _, _ in profiles:
+        if use_finetuned:
+            folder, name = prepared[kind]
+            recognizer = FinetunedRecognizer(
+                folder, models_dir=root, device=device, weights=recognition_weights,
+                repo=repo, model_name=name,
+            )
+            recognizers[kind] = recognizer
+            names[kind] = recognizer.model_name
+        else:
+            if standard is None:
+                standard = TextRecognition(
+                    model_name=recognition_model, device=device, enable_mkldnn=False,
+                )
+            recognizers[kind] = standard
+            names[kind] = recognition_model
     return {
         "detector": TextDetection(
-            model_name=detection_model,
-            device=device,
-            enable_mkldnn=False,
+            model_name=detection_model, device=device, enable_mkldnn=False,
         ),
-        "recognizer": TextRecognition(
-            model_name=recognition_model,
-            device=device,
-            enable_mkldnn=False,
-        ),
-        "recognition_model_name": recognition_model,
+        "headers_recognizer": recognizers["headers"],
+        "values_recognizer": recognizers["values"],
+        "headers_model_name": names["headers"],
+        "values_model_name": names["values"],
+        # Совместимость с прежними вызывающими функциями.
+        "recognizer": recognizers["headers"],
+        "recognition_model_name": names["headers"],
     }
+
 
 def _join_lines(lines: list[str]) -> str:
     """Соединяет строки заголовка и убирает дефис переноса слова."""
@@ -127,18 +177,6 @@ def _header_lines(
         return header, image
 
     height, width = image.shape[:2]
-
-    # Для одной строки сохраняем прежнее поведение:
-    # распознаём весь crop ячейки.
-    if count == 1:
-        header.lines.append(
-            HeaderLine(
-                order=0,
-                bbox=(0, 0, width, height),
-            )
-        )
-        header.complete = True
-        return header, image
 
     polygons = sorted(
         polygons,
@@ -230,6 +268,8 @@ def _recognize_header(
     return header
 
 def _recognize_crops(crops: list, recognizer, batch_size: int) -> list[tuple[str, float]]:
+    if hasattr(recognizer, "predict_crops"):
+        return recognizer.predict_crops(crops, batch_size)
     readings = []
     for start in range(0, len(crops), batch_size):
         batch = crops[start:start + batch_size]
@@ -289,7 +329,7 @@ def recognize_page(
     """Обновляет OCR-поля переданных Cell и возвращает тот же список."""
     OCRChecks.options(batch_size, header_confidence, number_confidence)
     OCRChecks.page(page_name, cells)
-    model_name = models["recognition_model_name"]
+    model_name = models.get("values_model_name", models["recognition_model_name"])
 
     headers = [cell for cell in cells if cell.cell_label in {
         CellType.ROW_HEADER, CellType.COLUMN_HEADER,
@@ -310,7 +350,8 @@ def recognize_page(
     for start in range(0, len(numbers), batch_size):
         batch = numbers[start:start + batch_size]
         crops = [crop_cell(image, cell.bbox) for cell in batch]
-        readings = _recognize_crops(crops, models["recognizer"], batch_size)
+        recognizer = models.get("values_recognizer", models["recognizer"])
+        readings = _recognize_crops(crops, recognizer, batch_size)
         for cell, reading in zip(batch, readings):
             _save_reading(cell, [reading], model_name, 0, number_confidence)
             _parse_number(cell)
@@ -326,6 +367,12 @@ def recognize_book(
     number_confidence: float = 0.95,
     *,
     show_progress: bool = True,
+    models_dir: str | Path | None = None,
+    headers_model_dir: str | Path | None = None,
+    values_model_dir: str | Path | None = None,
+    use_finetuned: bool = True,
+    recognition_weights: str = "best_model.pdparams",
+    repo: str | Path | None = None,
 ) -> dict[str, list[Cell]]:
     """Распознаёт уже обнаруженные ячейки; модели загружаются один раз.
 
@@ -340,7 +387,11 @@ def recognize_book(
 
     if show_progress:
         tqdm.write("Загрузка моделей PaddleOCR...")
-    models = load_ocr_models(device=device)
+    models = load_ocr_models(
+        device=device, models_dir=models_dir, headers_model_dir=headers_model_dir,
+        values_model_dir=values_model_dir, use_finetuned=use_finetuned,
+        recognition_weights=recognition_weights, repo=repo,
+    )
     pages = [
         (page_name, cells)
         for page_name, cells in cells_by_page.items()

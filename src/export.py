@@ -229,7 +229,7 @@ def _write_value(sheet, row: int, column: int, value) -> None:
         target.data_type = "s"
     target.alignment = Alignment(vertical="top", wrap_text=True)
     if type(value) in (int, float):
-        target.number_format = "0.##########"
+        target.number_format = "0.0#########"
 
 
 def _axis_name(item: dict) -> str:

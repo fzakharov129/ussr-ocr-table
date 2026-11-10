@@ -449,20 +449,23 @@ class ReviewChecks:
         if not isinstance(config, dict):
             raise ReviewError("Конфигурация проверки должна быть словарём")
         provider = config.get("provider", "yandex")
-        if provider not in ("yandex", "alibaba"):
-            raise ReviewError("provider must be yandex or alibaba")
-        if "enable_thinking" in config and type(config["enable_thinking"]) is not bool:
-            raise ReviewError("enable_thinking must be boolean")
-        keys = ("model", "api_key_env", "base_url_env")
-        if provider == "yandex":
-            keys += ("folder_id_env",)
+        if provider != "yandex":
+            raise ReviewError("provider должен быть yandex")
+        if type(config.get("reasoning_enabled", False)) is not bool:
+            raise ReviewError("reasoning_enabled должен быть True или False")
+        header_settings = config.get("header_review", {})
+        if not isinstance(header_settings, dict):
+            raise ReviewError("header_review должен быть словарём")
+        if type(header_settings.get("reasoning_enabled", False)) is not bool:
+            raise ReviewError("header_review.reasoning_enabled должен быть True или False")
+        keys = ("model", "api_key_env", "base_url_env", "folder_id_env")
         for key in keys:
             if not isinstance(config.get(key), str) or not config[key].strip():
                 raise ReviewError(f"Нужен строковый параметр {key}")
-        for key in ("batch_size", "max_output_tokens"):
+        for key in ("batch_size", "max_output_tokens", "max_attempts"):
             if type(config.get(key)) is not int or config[key] <= 0:
                 raise ReviewError(f"{key} должен быть положительным целым числом")
-        for key in ("max_retries", "number_padding"):
+        for key in ("number_padding",):
             if type(config.get(key)) is not int or config[key] < 0:
                 raise ReviewError(f"{key} должен быть целым числом >= 0")
         timeout = config.get("timeout")
@@ -504,8 +507,8 @@ class ReviewChecks:
             raise ReviewError("paths.output_name должен быть именем файла без папок")
 
     @staticmethod
-    def credentials(api_key: str, base_url: str, folder: str, *, provider: str = "yandex") -> None:
-        if provider == "yandex" and not folder.strip():
+    def credentials(api_key: str, base_url: str, folder: str) -> None:
+        if not folder.strip():
             raise ReviewError("ID каталога Yandex Cloud не задан в окружении или .env")
         if not api_key.strip():
             raise ReviewError("API-ключ не задан в окружении или .env")
@@ -796,9 +799,9 @@ class HeaderReviewChecks:
             raise ReviewError("header_review должен быть словарём")
 
     @staticmethod
-    def answer(raw, names, canonical=None):
+    def answer(raw, names, canonical=None, rejected=None, resolve=None):
         ReviewChecks.content(raw)
-        if raw.strip() == "OK":
+        if raw.strip().upper().translate(str.maketrans("ОК", "OK")) == "OK":
             return {}
         result = {}
         seen = set()
@@ -810,10 +813,17 @@ class HeaderReviewChecks:
             corrected = parts[1].strip()
             if index >= len(names) or index in seen or not corrected:
                 raise ReviewError(f"Некорректный номер/текст исправления: {line!r}")
-            if canonical is not None and corrected not in canonical:
-                raise ReviewError(f"Исправленного названия нет в справочнике: {corrected!r}")
-            original = names[index]
             seen.add(index)
+            if corrected.upper().translate(str.maketrans("ОК", "OK")) == "OK":
+                continue
+            original = names[index]
+            if resolve is not None:
+                corrected = resolve(original, corrected)
+            if corrected is None or (canonical is not None and corrected not in canonical):
+                if rejected is None:
+                    raise ReviewError(f"Исправленного названия нет в справочнике: {parts[1].strip()!r}")
+                rejected.add(original)
+                continue
             if corrected != original:
                 result[original] = corrected
         return result

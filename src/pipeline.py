@@ -25,22 +25,27 @@ def run_pipeline(
     zip_path: str | Path,
     *,
     start_stage: str | PipelineStage = PipelineStage.DETECTION,
+    end_stage: str | PipelineStage = PipelineStage.EXPORT,
     outputs_dir: str | Path | None = None,
     book_id: str | None = None,
     show_progress: bool = True,
     log_requests: bool = False,
 ) -> dict[str, Path]:
-    """Run the selected stage and all later stages; default starts at detection.
+    """Run stages from start_stage through end_stage, inclusive.
 
     OCR loads detection.pkl; assembly loads structure.pkl;
     export loads result.pkl without rebuilding the table or loading models.
     outputs_dir is the parent folder, to which book_id is appended.
     """
     start_stage = PipelineStage(start_stage)
+    end_stage = PipelineStage(end_stage)
+    start = STAGES.index(start_stage)
+    end = STAGES.index(end_stage)
+    if start > end:
+        raise ValueError("Конечный этап не может быть раньше начального")
     zip_path = Path(zip_path).resolve()
     folder = book_output_dir(zip_path, outputs_dir, book_id)
     storage = BookStorage(folder, source_fingerprint(zip_path))
-    start = STAGES.index(start_stage)
     with storage.locked():
         data = None
         if start:
@@ -49,7 +54,7 @@ def run_pipeline(
             PipelineChecks.state(previous, data)
         # Load and validate prerequisite before removing any stale checkpoints.
         storage.invalidate_from(start_stage)
-        for index in range(start, len(STAGES)):
+        for index in range(start, end + 1):
             stage = PipelineStage(STAGES[index])
             if show_progress:
                 print(f"[{index + 1}/{len(STAGES)}] {stage.value}", flush=True)
@@ -84,4 +89,6 @@ def run_pipeline(
                 case PipelineStage.EXPORT:
                     return export_result(data, output_dir=folder)
             PipelineChecks.state(stage, data)
-            storage.save(stage, data)
+            checkpoint = storage.save(stage, data)
+            if stage == end_stage:
+                return {"checkpoint": checkpoint}

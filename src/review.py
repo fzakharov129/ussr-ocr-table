@@ -12,6 +12,7 @@ import cv2
 import numpy as np
 import yaml
 from dotenv import load_dotenv
+from openai import APIError
 from .review_client import ReviewClient
 
 from tqdm import tqdm
@@ -61,8 +62,6 @@ def create_review_client(config: dict) -> ReviewClient:
 
 
 def _model_uri(config: dict) -> str:
-    if config.get("provider", "yandex") == "alibaba":
-        return config["model"]
     folder = os.getenv(config["folder_id_env"], "")
     return f"gpt://{folder}/{config['model']}"
 
@@ -98,9 +97,8 @@ def _request_key(cell: Cell, crop: np.ndarray, prompt: str, config: dict, endpoi
         "endpoint": endpoint,
         "temperature": config["temperature"],
         "max_output_tokens": config["max_output_tokens"],
+        "reasoning_enabled": config.get("reasoning_enabled", False),
         "api": "responses",
-        **({"enable_thinking": config.get("enable_thinking", False)}
-           if config.get("provider", "yandex") == "alibaba" else {}),
         "montage": config["montage"],
     }
     digest = hashlib.sha256(json.dumps(metadata, sort_keys=True).encode("utf-8"))
@@ -132,6 +130,8 @@ def _parse_answer(raw: str | None, expected: int) -> list[str]:
         data = json.loads(raw)
     except json.JSONDecodeError as error:
         raise ReviewError("Модель вернула некорректный JSON") from error
+    if isinstance(data, list):
+        data = {"items": data}
     ReviewChecks.answer(data, expected)
     by_index = {item["index"]: item["text"].strip() for item in data["items"]}
     return [by_index[index] for index in range(expected)]
@@ -158,6 +158,24 @@ def _diagnostic_data(value):
     return value
 
 
+def _retry_request(operation, max_attempts: int, label: str):
+    for attempt in range(1, max_attempts + 1):
+        try:
+            return operation()
+        except ReviewError as error:
+            cause = error.__cause__
+            if isinstance(cause, APIError):
+                status = getattr(cause, "status_code", None)
+                if status is not None and status not in (408, 409, 429) and status < 500:
+                    raise
+            if attempt == max_attempts:
+                raise ReviewError(
+                    f"{label}: не удалось получить корректный ответ за {max_attempts} попыток: {error}"
+                ) from error
+            tqdm.write(f"{label}: попытка {attempt}/{max_attempts}: {error}. Повторяем запрос.")
+            time.sleep(1)
+
+
 def _request_review(crops: list[np.ndarray], prompt: str, client: ReviewClient, config: dict,
                     *, cells: list[Cell] | None = None) -> dict:
     montage = _make_montage(crops, config["montage"])
@@ -168,6 +186,7 @@ def _request_review(crops: list[np.ndarray], prompt: str, client: ReviewClient, 
         "model": config["model"],
         "temperature": config["temperature"],
         "max_output_tokens": config["max_output_tokens"],
+        "reasoning_enabled": config.get("reasoning_enabled", False),
         "instructions": prompt,
         "cell_count": len(crops),
         "cells": [{"index": index, "page": cell.page_name, "cell_id": cell.cell_id,
@@ -261,8 +280,12 @@ def _review_group(cells: list[Cell], image: np.ndarray, prompt: str, client: Rev
             pending.insert(0, batch.pop())
             crops.pop()
         ReviewChecks.montage(crops, config["montage"])
-        result = _request_review(crops, prompt, client, config,
-                                 cells=[cell for cell, _, _ in batch])
+        result = _retry_request(
+            lambda: _request_review(
+                crops, prompt, client, config, cells=[cell for cell, _, _ in batch],
+            ),
+            config["max_attempts"], "Проверка ячеек",
+        )
         for (cell, _, key), text in zip(batch, result["texts"]):
             checkpoint[key] = {
                 "page_name": cell.page_name,
