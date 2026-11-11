@@ -113,7 +113,7 @@ def build_book_table(graphs_by_page: dict[str, PageGraph]) -> dict:
                         "value": cell.recognized_value,
                     }, "Заголовок требует проверки"))
                 continue
-            if cell.cell_label not in {CellType.VALUE, CellType.EMPTY}:
+            if cell.cell_label != CellType.VALUE:
                 continue
 
             row_ids = _nearest_headers(graph, cell.cell_id, CellDirection.LEFT, CellType.ROW_HEADER)
@@ -272,6 +272,13 @@ def _write_xlsx(path: Path, book_name: str, table: dict, axis_label: str) -> Non
         cell.font = Font(bold=True)
         cell.fill = PatternFill("solid", fgColor="DCE6F1")
 
+    for index, column in enumerate(table["columns"], start=2):
+        if column.get("needs_review"):
+            sheet.cell(2, index).fill = yellow
+    for index, row in enumerate(table["rows"], start=3):
+        if row.get("needs_review"):
+            sheet.cell(index, 1).fill = yellow
+
     review = workbook.create_sheet("Проверка")
     headers = ["Страница", "cell_id", "Строка", "Столбец", "Значение", "Причина"]
     for index, title in enumerate(headers, start=1):
@@ -302,18 +309,25 @@ class BookResult:
     graphs_by_page: dict[str, PageGraph]
     table: dict
     schema_version: int = 1
+    page_tables: dict | None = None
 
 
 def assemble_book_result(
-    graphs_by_page: dict[str, PageGraph], zip_path: str | Path,
+    graphs_by_page: dict[str, PageGraph], zip_path: str | Path, *, page_tables=None,
 ) -> BookResult:
     """Build the final result without writing export files."""
     zip_path = Path(zip_path)
+    if page_tables is None:
+        from .header_context import resolve_republic_headers, review_sequences
+        from .page_tables import build_page_tables
+        page_tables = resolve_republic_headers(review_sequences(build_page_tables(graphs_by_page)))
+    from .page_tables import assemble_page_tables
     return BookResult(
         document_name=zip_path.stem,
         source_zip=str(zip_path),
         graphs_by_page=graphs_by_page,
-        table=build_book_table(graphs_by_page),
+        table=assemble_page_tables(page_tables),
+        page_tables={key: value for key, value in page_tables.items() if key != "graphs"},
     )
 
 
@@ -330,6 +344,11 @@ def export_result(
         config = yaml.safe_load(file)
     ExportChecks.config(config)
     ExportChecks.graphs(result.graphs_by_page)
+    page_tables = getattr(result, "page_tables", None)
+    if not isinstance(page_tables, dict) or not isinstance(page_tables.get("pages"), dict):
+        raise ValueError("Нет таблиц страниц в результате; выполните этап assembly заново")
+    if set(page_tables["pages"]) != set(result.graphs_by_page):
+        raise ValueError("Таблицы страниц не соответствуют графам книги")
     folder = (
         Path(output_dir) if output_dir is not None
         else root / config["paths"]["output_dir"] / result.document_name
@@ -339,17 +358,21 @@ def export_result(
         "document_name": result.document_name,
         "source_zip": result.source_zip,
         "table": result.table,
+        "page_tables": getattr(result, "page_tables", None),
         "pages": [_graph_data(graph) for graph in result.graphs_by_page.values()],
     }
     json_text = json.dumps(book, ensure_ascii=False, indent=2, allow_nan=False)
     folder.mkdir(parents=True, exist_ok=True)
     json_path = folder / config["paths"]["json_name"]
     xlsx_path = folder / config["paths"]["xlsx_name"]
+    from .page_tables import save_page_tables
+
+    pages_dir = save_page_tables(page_tables["pages"], folder, config["axis_label"])
     _write_xlsx(xlsx_path, result.document_name, result.table, config["axis_label"])
     temporary = json_path.with_suffix(".tmp.json")
     temporary.write_text(json_text, encoding="utf-8")
     temporary.replace(json_path)
-    return {"json": json_path, "xlsx": xlsx_path}
+    return {"json": json_path, "xlsx": xlsx_path, "pages_dir": pages_dir}
 
 
 def export_book(

@@ -38,6 +38,7 @@ def main() -> None:
     else:
         print(f"JSON: {paths['json']}")
         print(f"XLSX: {paths['xlsx']}")
+        print(f"Таблицы страниц: {paths['pages_dir']}")
 
 
 if __name__ == "__main__":

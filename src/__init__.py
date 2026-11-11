@@ -19,6 +19,9 @@ _LAZY = {
     "BookResult": "export", "assemble_book_result": "export", "export_result": "export",
     "PipelineStage": "pipeline", "run_pipeline": "pipeline",
     "BookStorage": "storage", "StorageError": "storage",
+    "review_sequences": "header_context", "resolve_republic_headers": "header_context",
+    "save_page_tables": "page_tables", "build_page_tables": "page_tables", "show_page_table": "page_table_view",
+    "show_page_matches": "page_table_view", "show_reference_sequences": "page_table_view",
     "show_book_stage": "visualization",
     "show_cells_stage": "cell_inspection",
 }

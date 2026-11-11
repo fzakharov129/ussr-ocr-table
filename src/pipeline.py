@@ -15,6 +15,9 @@ class PipelineStage(StrEnum):
     NORMALIZATION = "normalization"
     HEADER_REVIEW = "header_review"
     STRUCTURE = "structure"
+    PAGE_TABLES = "page_tables"
+    SEQUENCE_REVIEW = "sequence_review"
+    REPUBLIC_HEADERS = "republic_headers"
     ASSEMBLY = "assembly"
     EXPORT = "export"
 
@@ -33,7 +36,7 @@ def run_pipeline(
 ) -> dict[str, Path]:
     """Run stages from start_stage through end_stage, inclusive.
 
-    OCR loads detection.pkl; assembly loads structure.pkl;
+    OCR loads detection.pkl; page_tables loads structure.pkl; assembly loads republic_headers.pkl;
     export loads result.pkl without rebuilding the table or loading models.
     outputs_dir is the parent folder, to which book_id is appended.
     """
@@ -84,8 +87,17 @@ def run_pipeline(
                 case PipelineStage.STRUCTURE:
                     from .graph import build_book_graphs
                     data = build_book_graphs(data, show_progress=show_progress)
+                case PipelineStage.PAGE_TABLES:
+                    from .page_tables import build_page_tables
+                    data = build_page_tables(data)
+                case PipelineStage.SEQUENCE_REVIEW:
+                    from .header_context import review_sequences
+                    data = review_sequences(data)
+                case PipelineStage.REPUBLIC_HEADERS:
+                    from .header_context import resolve_republic_headers
+                    data = resolve_republic_headers(data)
                 case PipelineStage.ASSEMBLY:
-                    data = assemble_book_result(data, zip_path)
+                    data = assemble_book_result(data["graphs"], zip_path, page_tables=data)
                 case PipelineStage.EXPORT:
                     return export_result(data, output_dir=folder)
             PipelineChecks.state(stage, data)

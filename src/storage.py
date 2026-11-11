@@ -11,7 +11,7 @@ from .exceptions import StorageError
 from .validations import StorageChecks
 
 
-STAGES = ("detection", "ocr", "review", "normalization", "header_review", "structure", "assembly", "export")
+STAGES = ("detection", "ocr", "review", "normalization", "header_review", "structure", "page_tables", "sequence_review", "republic_headers", "assembly", "export")
 FORMAT_VERSION = 1
 
 

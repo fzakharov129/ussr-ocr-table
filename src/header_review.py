@@ -1,6 +1,7 @@
 """Review unique historical header names as text, after normalization."""
 import hashlib
 import json
+import re
 from pathlib import Path
 from tqdm import tqdm
 from .entities import CellType, NEEDS_REVIEW
@@ -55,7 +56,14 @@ def review_header_names(cells_by_page, *, config_path=None, dictionary_path=None
         value = _normalize_spelling(value)
         value = aliases.get(value, value)
         candidate = _match_dictionary(value, canonical)
-        if candidate is None or _dictionary_key(original)[0] != _dictionary_key(candidate)[0]:
+        if candidate is None:
+            return None
+        expanded = re.sub(r"\bобл\.?\s*$", "область", original, flags=re.IGNORECASE)
+        original_hierarchy, original_type, _ = _dictionary_key(expanded)
+        candidate_hierarchy, candidate_type, _ = _dictionary_key(candidate)
+        if original_hierarchy != candidate_hierarchy:
+            return None
+        if original_type and original_type != candidate_type:
             return None
         return candidate
 
@@ -67,7 +75,7 @@ def review_header_names(cells_by_page, *, config_path=None, dictionary_path=None
     with create_review_client(config) as client:
         for start in tqdm(range(0, len(names), size), desc="Проверка названий VLM", disable=not show_progress):
             batch = names[start:start + size]
-            signature = dict(dictionary=dictionary, protocol="dictionary_corrections_normalized_v6", names=batch, prompt=prompt, model=client.model, endpoint=str(client.base_url),
+            signature = dict(dictionary=dictionary, protocol="dictionary_corrections_normalized_v7", names=batch, prompt=prompt, model=client.model, endpoint=str(client.base_url),
                              temperature=config["temperature"], max_output_tokens=config["max_output_tokens"],
                              reasoning_enabled=settings.get("reasoning_enabled", False))
             key = hashlib.sha256(json.dumps(signature, ensure_ascii=False, sort_keys=True).encode()).hexdigest()

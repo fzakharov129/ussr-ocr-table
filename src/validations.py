@@ -140,6 +140,14 @@ class PipelineChecks:
                         raise ValueError("Expected BookResult")
                     ExportChecks.graphs(data.graphs_by_page)
                     ExportChecks.excel(data.table)
+                case "page_tables" | "sequence_review" | "republic_headers":
+                    if not isinstance(data, dict) or not isinstance(data.get("pages"), dict):
+                        raise ValueError("Expected page tables")
+                    ExportChecks.graphs(data.get("graphs"))
+                    if set(data["pages"]) != set(data["graphs"]) or not isinstance(data.get("suggestions"), list):
+                        raise ValueError("Inconsistent page tables")
+                    for table in data["pages"].values():
+                        ExportChecks.excel(table)
                 case "structure":
                     if not isinstance(data, dict) or any(
                         not isinstance(graph, PageGraph) for graph in data.values()
