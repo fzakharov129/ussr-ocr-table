@@ -1,0 +1,2244 @@
+{
+  "0f454e416d38b633c197693c23bbd3173f504576774100d5f98dbd7de2bd7812": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 24,
+    "bbox": [
+      420,
+      2087,
+      314,
+      56
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Калининская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Калининская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Курганская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Калужская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Ульяновская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 380
+  },
+  "c2fa861b6132e0ebce8d809849d35e0103aa409fc3f5bca5a4c493d0c45b227b": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 26,
+    "bbox": [
+      448,
+      2458,
+      315,
+      58
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Курганская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Калининская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Курганская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Калужская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Ульяновская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 380
+  },
+  "4b54cf30ad31056ec66b7f220d8b33d9c4e9f79bf8cd355e13f66b3f03ae8f21": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 36,
+    "bbox": [
+      426,
+      2140,
+      319,
+      52
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Калужская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Калининская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Курганская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Калужская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Ульяновская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 380
+  },
+  "5c6dce5a0928728afdfc60dcb64a2f238564cdb007b61d6b21608e324bfdb4dc": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 45,
+    "bbox": [
+      454,
+      3893,
+      317,
+      57
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "Уляксоскио",
+    "previous_value": "Уляксоскио",
+    "previous_confidence": 0.7894938588142395,
+    "review_text": "Ульяновская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Калининская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Курганская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Калужская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Ульяновская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 380
+  },
+  "4eac4897432f94417852974ba0c5a59e6e03ab59af5e06a2c8c86cc4b5fe57d8": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 46,
+    "bbox": [
+      436,
+      3395,
+      314,
+      61
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Саратовская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Саратовская область\"},{\"index\":1,\"text\":\"Кировская область\"},{\"index\":2,\"text\":\"Псковская область\"},{\"index\":3,\"text\":\"Ленинградская область\"}]}\n```",
+    "batch_total_tokens": 337
+  },
+  "c75d7b28d165aebf6e78fe46afc10165a097857a56f423a8b0f9c145c2480aa2": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 60,
+    "bbox": [
+      450,
+      2231,
+      308,
+      55
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Кировская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Саратовская область\"},{\"index\":1,\"text\":\"Кировская область\"},{\"index\":2,\"text\":\"Псковская область\"},{\"index\":3,\"text\":\"Ленинградская область\"}]}\n```",
+    "batch_total_tokens": 337
+  },
+  "8e3053653834e1072624c61fa9590fa4cbd976e5a7b0fe88a92e23a82ea29687": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 81,
+    "bbox": [
+      424,
+      3227,
+      322,
+      59
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Псковская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Саратовская область\"},{\"index\":1,\"text\":\"Кировская область\"},{\"index\":2,\"text\":\"Псковская область\"},{\"index\":3,\"text\":\"Ленинградская область\"}]}\n```",
+    "batch_total_tokens": 337
+  },
+  "990ef56cae5cbdcf517297be31cbff054765692f1ceab0734eb294ab61960fb5": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 109,
+    "bbox": [
+      437,
+      2573,
+      320,
+      57
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Ленинградская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Саратовская область\"},{\"index\":1,\"text\":\"Кировская область\"},{\"index\":2,\"text\":\"Псковская область\"},{\"index\":3,\"text\":\"Ленинградская область\"}]}\n```",
+    "batch_total_tokens": 337
+  },
+  "8288d126f601552f512421f4c6c560ff22d1ab9d35f7f361499e205137158bb2": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 174,
+    "bbox": [
+      393,
+      1782,
+      319,
+      65
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Германская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"Германская область\"}, {\"index\": 1, \"text\": \"Курганская область\"}, {\"index\": 2, \"text\": \"Костромская область\"}, {\"index\": 3, \"text\": \"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 343
+  },
+  "d5c35510667552b9982ea4cc9f85c360aecd49b75387ef6da3cbe14548ff5abc": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 268,
+    "bbox": [
+      440,
+      2516,
+      319,
+      57
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Курганская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"Германская область\"}, {\"index\": 1, \"text\": \"Курганская область\"}, {\"index\": 2, \"text\": \"Костромская область\"}, {\"index\": 3, \"text\": \"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 343
+  },
+  "455c87a3d2d5feb24ebc048eb7cc1e10b03abaab7e06b1b07a43178e0833699d": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 269,
+    "bbox": [
+      456,
+      2284,
+      307,
+      60
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Костромская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"Германская область\"}, {\"index\": 1, \"text\": \"Курганская область\"}, {\"index\": 2, \"text\": \"Костромская область\"}, {\"index\": 3, \"text\": \"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 343
+  },
+  "a0bdaa7a9d9804de67740d30a74d80821536890b71d9f2e05a638fb34aa8f550": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 272,
+    "bbox": [
+      435,
+      3508,
+      318,
+      62
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Свердловская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"Германская область\"}, {\"index\": 1, \"text\": \"Курганская область\"}, {\"index\": 2, \"text\": \"Костромская область\"}, {\"index\": 3, \"text\": \"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 343
+  },
+  "3cd2fc106adf7df4ebfbde5319e94dbe044f09dde62adc461eda9c865685db9f": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 412,
+    "bbox": [
+      434,
+      2187,
+      316,
+      47
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Кемеровская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Кемеровская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Сталинская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Магнитогорская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Курганская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 403
+  },
+  "f5ab9f9d8af19beea20a921482fac5f22281669816928e4093ec8ed9e8c63d9d": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 444,
+    "bbox": [
+      438,
+      3453,
+      314,
+      62
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "олпагт",
+    "previous_value": "олпагт",
+    "previous_confidence": 0.6645670533180237,
+    "review_text": "Сталинская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Кемеровская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Сталинская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Магнитогорская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Курганская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 403
+  },
+  "5726f26d30f228d14c3db6c8bb9fe4b467febe70bc47ea929c6ecba52fee6035": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 464,
+    "bbox": [
+      416,
+      2932,
+      322,
+      60
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Магнитогорская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Кемеровская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Сталинская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Магнитогорская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Курганская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 403
+  },
+  "c5fa018cde69f2a5f0eba4cf882694d6528dc0f85403d0724c6b757e454f6ad6": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 468,
+    "bbox": [
+      416,
+      2871,
+      318,
+      61
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Курганская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Кемеровская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Сталинская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Магнитогорская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Курганская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 403
+  },
+  "20400b497ae2b43ae651c8707900a1303f5d503c963f5aef8cbf7c0438ae8539": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 486,
+    "bbox": [
+      423,
+      3170,
+      324,
+      59
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Ленинградская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"Ленинградская область\"},\n  {\"index\": 1, \"text\": \"Московская область\"},\n  {\"index\": 2, \"text\": \"Куйбышевская область\"},\n  {\"index\": 3, \"text\": \"Волго-Донская область\"}\n]\n```",
+    "batch_total_tokens": 365
+  },
+  "e9fc52313e19680ecbf9c48aed446199c7fef3f9a7e725c42441b4d92d81bca8": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 496,
+    "bbox": [
+      422,
+      2750,
+      317,
+      60
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Московская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"Ленинградская область\"},\n  {\"index\": 1, \"text\": \"Московская область\"},\n  {\"index\": 2, \"text\": \"Куйбышевская область\"},\n  {\"index\": 3, \"text\": \"Волго-Донская область\"}\n]\n```",
+    "batch_total_tokens": 365
+  },
+  "7bedf78df1a0f1bac1c2524484c14baa2c16ea2f54b6b567f8082764188f6a96": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 502,
+    "bbox": [
+      455,
+      2401,
+      309,
+      59
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Куйбышевская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"Ленинградская область\"},\n  {\"index\": 1, \"text\": \"Московская область\"},\n  {\"index\": 2, \"text\": \"Куйбышевская область\"},\n  {\"index\": 3, \"text\": \"Волго-Донская область\"}\n]\n```",
+    "batch_total_tokens": 365
+  },
+  "5bd639d01a9d0294967f4dce31288e0ce4599f07a217014e19905d3640090ca1": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 543,
+    "bbox": [
+      388,
+      1534,
+      325,
+      64
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Волго-Донская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"Ленинградская область\"},\n  {\"index\": 1, \"text\": \"Московская область\"},\n  {\"index\": 2, \"text\": \"Куйбышевская область\"},\n  {\"index\": 3, \"text\": \"Волго-Донская область\"}\n]\n```",
+    "batch_total_tokens": 365
+  },
+  "a3f0f0f48e889e62c612baf7232a87adee0a16bfbd541876559683d051c3bd12": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 663,
+    "bbox": [
+      418,
+      2810,
+      320,
+      61
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "В г. г. Московский уезд",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"В г. г. Московский уезд\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Владимирская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Крымская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Рязанская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 406
+  },
+  "899180b075ef26b62bbe2cf69d4ccc3215e2dd948f0f804a6c3493ebca581353": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 805,
+    "bbox": [
+      391,
+      1596,
+      321,
+      65
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Владимирская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"В г. г. Московский уезд\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Владимирская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Крымская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Рязанская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 406
+  },
+  "bcbfd7dcaa511018a43818d5d118c2271541852674779242def13c041b658263": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 862,
+    "bbox": [
+      450,
+      2342,
+      313,
+      60
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Крымская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"В г. г. Московский уезд\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Владимирская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Крымская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Рязанская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 406
+  },
+  "47945c4d70ed4802d3a355c303355e9d3067553aa96375c64fae3951892a82ff": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 864,
+    "bbox": [
+      424,
+      3341,
+      326,
+      58
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Рязанская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"В г. г. Московский уезд\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Владимирская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Крымская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Рязанская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 406
+  },
+  "10a47504e70bc941990c4321f4c30b27f9ca4ec0dca3c4835167135967d647df": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1065,
+    "bbox": [
+      418,
+      3111,
+      329,
+      60
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Орловская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Орловская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Всего по республике\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"8 т. ч. Ленинградский уезд\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Калужская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 447
+  },
+  "400bf016b8e95e00092c77d4df9276540ee51dc5bce3cdd6e07940393726f0d2": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1310,
+    "bbox": [
+      780,
+      425,
+      144,
+      131
+    ],
+    "label": "column_header",
+    "rotation": 90,
+    "paddle_text": "б\nГбь",
+    "previous_value": "б Гбь",
+    "previous_confidence": 0.5098444670438766,
+    "review_text": "Всего по республике",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Орловская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Всего по республике\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"8 т. ч. Ленинградский уезд\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Калужская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 447
+  },
+  "28c402d1556260d1b090b7b9d8dc899774fc7cbf9a6873b2697a18965e004c55": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1338,
+    "bbox": [
+      433,
+      2630,
+      313,
+      60
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "8 т. ч. Ленинградский уезд",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Орловская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Всего по республике\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"8 т. ч. Ленинградский уезд\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Калужская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 447
+  },
+  "88a4f6a9f7d266b7b1f30fe8dd4e80fc42190478194c803e195ca8d19d0d9568": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1361,
+    "bbox": [
+      423,
+      2690,
+      322,
+      59
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Калужская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Орловская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Всего по республике\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"8 т. ч. Ленинградский уезд\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Калужская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 447
+  },
+  "6a8c8231afab67a8315e146db8cbedc0ae9418e1a4436fecaf9a6465087b6e5f": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1379,
+    "bbox": [
+      416,
+      3053,
+      330,
+      60
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "о лт ь",
+    "previous_value": "о лт ь",
+    "previous_confidence": 0.5076681971549988,
+    "review_text": "Омская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Омская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 261
+  },
+  "68ed5481af5f712efbc2d7f253547ddb5033eac91e0db832da4e6cef84d4cc01": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 181,
+    "bbox": [
+      838,
+      4040,
+      137,
+      62
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "1.4",
+    "previous_value": 1.4,
+    "previous_confidence": 0.7660704255104065,
+    "review_text": "65",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"65\"}, {\"index\": 1, \"text\": \"65\"}, {\"index\": 2, \"text\": \"133\"}, {\"index\": 3, \"text\": \"59\"}]}\n```",
+    "batch_total_tokens": 261
+  },
+  "2d7b74b20c6798927cf757d92ac90307c903ca2cfb3a28ccb5001edf44220748": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 607,
+    "bbox": [
+      804,
+      2093,
+      143,
+      53
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "6.5",
+    "previous_value": 6.5,
+    "previous_confidence": 0.9199507832527161,
+    "review_text": "65",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"65\"}, {\"index\": 1, \"text\": \"65\"}, {\"index\": 2, \"text\": \"133\"}, {\"index\": 3, \"text\": \"59\"}]}\n```",
+    "batch_total_tokens": 261
+  },
+  "0ebd348010afeafe66babd9c343d55e4204a28b9733dbab34103bf3f111ac302": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 827,
+    "bbox": [
+      818,
+      2631,
+      142,
+      58
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "12.2",
+    "previous_value": 12.2,
+    "previous_confidence": 0.7387442588806152,
+    "review_text": "133",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"65\"}, {\"index\": 1, \"text\": \"65\"}, {\"index\": 2, \"text\": \"133\"}, {\"index\": 3, \"text\": \"59\"}]}\n```",
+    "batch_total_tokens": 261
+  },
+  "9babcf384ac384fec83625f5b44486d6d81796b407c09aa8e40aeb97adb2d7ef": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 851,
+    "bbox": [
+      781,
+      1351,
+      144,
+      62
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "5.2",
+    "previous_value": 5.2,
+    "previous_confidence": 0.7930765748023987,
+    "review_text": "59",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"65\"}, {\"index\": 1, \"text\": \"65\"}, {\"index\": 2, \"text\": \"133\"}, {\"index\": 3, \"text\": \"59\"}]}\n```",
+    "batch_total_tokens": 261
+  },
+  "487632fe9e6f7a67401e8d210ab6bd33688c17e7233fccfc5a08e24320c13f01": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1015,
+    "bbox": [
+      816,
+      3283,
+      137,
+      54
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "40.5",
+    "previous_value": 40.5,
+    "previous_confidence": 0.861272931098938,
+    "review_text": "246",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"246\"},\n  {\"index\": 1, \"text\": \"243\"},\n  {\"index\": 2, \"text\": \"244\"},\n  {\"index\": 3, \"text\": \"240\"}\n]\n```",
+    "batch_total_tokens": 281
+  },
+  "cc73dc1b7f52967f35d5d5c36fde9273681eea4cea5880ebe5be2ac6eee22667": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1117,
+    "bbox": [
+      838,
+      3940,
+      133,
+      50
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "20.0",
+    "previous_value": 20.0,
+    "previous_confidence": 0.6895714402198792,
+    "review_text": "243",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"246\"},\n  {\"index\": 1, \"text\": \"243\"},\n  {\"index\": 2, \"text\": \"244\"},\n  {\"index\": 3, \"text\": \"240\"}\n]\n```",
+    "batch_total_tokens": 281
+  },
+  "036019a5da22341a6ff84dcbcd9c98613c80defa2fdb40a4518f3ad7a1e4b49d": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1118,
+    "bbox": [
+      828,
+      3672,
+      135,
+      55
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "024",
+    "previous_value": 24.0,
+    "previous_confidence": 0.6154919266700745,
+    "review_text": "244",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"246\"},\n  {\"index\": 1, \"text\": \"243\"},\n  {\"index\": 2, \"text\": \"244\"},\n  {\"index\": 3, \"text\": \"240\"}\n]\n```",
+    "batch_total_tokens": 281
+  },
+  "08855711b7642ba42e312010bd19a589f4389fe12b23f6762349316d458d787e": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1384,
+    "bbox": [
+      824,
+      2192,
+      140,
+      44
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "26.0",
+    "previous_value": 26.0,
+    "previous_confidence": 0.7863326072692871,
+    "review_text": "240",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"246\"},\n  {\"index\": 1, \"text\": \"243\"},\n  {\"index\": 2, \"text\": \"244\"},\n  {\"index\": 3, \"text\": \"240\"}\n]\n```",
+    "batch_total_tokens": 281
+  },
+  "65cd03b99d79ca4495417781d97ff4bc82bca26cb7d9bd547939ab7b3628fb11": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1413,
+    "bbox": [
+      821,
+      2574,
+      142,
+      56
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "18.6",
+    "previous_value": 18.6,
+    "previous_confidence": 0.810449481010437,
+    "review_text": "18+6",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"18+6\"}, {\"index\": 1, \"text\": \"100\"}, {\"index\": 2, \"text\": \"42\"}, {\"index\": 3, \"text\": \"361\"}]}\n```",
+    "batch_total_tokens": 264
+  },
+  "cc88afdc277dc5a43bdb34f75bba6952f75823fb4f779d1583983d1aab766356": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1501,
+    "bbox": [
+      825,
+      3505,
+      131,
+      56
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "00.0",
+    "previous_value": 0.0,
+    "previous_confidence": 0.7841450572013855,
+    "review_text": "100",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"18+6\"}, {\"index\": 1, \"text\": \"100\"}, {\"index\": 2, \"text\": \"42\"}, {\"index\": 3, \"text\": \"361\"}]}\n```",
+    "batch_total_tokens": 264
+  },
+  "76b0c801e72a8ff939022b292c36e3e8ce8274194c6aef842884e3dd50b03a62": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1556,
+    "bbox": [
+      813,
+      2147,
+      142,
+      45
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "03.3",
+    "previous_value": 3.3,
+    "previous_confidence": 0.778421938419342,
+    "review_text": "42",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"18+6\"}, {\"index\": 1, \"text\": \"100\"}, {\"index\": 2, \"text\": \"42\"}, {\"index\": 3, \"text\": \"361\"}]}\n```",
+    "batch_total_tokens": 264
+  },
+  "1da52d5caf4f9b797a846c0bfb3dec4634bf9ea9e19cb98934abdfbacbd30b86": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143910.jpg",
+    "cell_id": 1583,
+    "bbox": [
+      812,
+      2810,
+      142,
+      60
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "061",
+    "previous_value": 61.0,
+    "previous_confidence": 0.8107452392578125,
+    "review_text": "361",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"18+6\"}, {\"index\": 1, \"text\": \"100\"}, {\"index\": 2, \"text\": \"42\"}, {\"index\": 3, \"text\": \"361\"}]}\n```",
+    "batch_total_tokens": 264
+  },
+  "97f76de3869b7ab69205bed9ead20d1380d3703f59cf8c4a2b1e79cbaab1587b": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143916.jpg",
+    "cell_id": 1536,
+    "bbox": [
+      523,
+      4184,
+      310,
+      84
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "коть\nЧкаловская область",
+    "previous_value": "коть Чкаловская область",
+    "previous_confidence": 0.7983656227588654,
+    "review_text": "Чкаловская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Чкаловская область\"}]}\n```",
+    "batch_total_tokens": 247
+  },
+  "694cb2fbc4bcfec48ce52c7e1a2784d9926c7379531bb3d72d5206232e3d770f": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143916.jpg",
+    "cell_id": 1277,
+    "bbox": [
+      3135,
+      2797,
+      92,
+      62
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "25.8",
+    "previous_value": 25.8,
+    "previous_confidence": 0.8581907153129578,
+    "review_text": "35.8",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"35.8\"}, {\"index\": 1, \"text\": \"00\"}, {\"index\": 2, \"text\": \"113.1\"}]}\n```",
+    "batch_total_tokens": 252
+  },
+  "50922dff307a7e985f15044762dcf29f6a915a035c2ac8651ccdbd4a349e1703": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143916.jpg",
+    "cell_id": 1529,
+    "bbox": [
+      1702,
+      551,
+      92,
+      65
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "0.0",
+    "previous_value": 0.0,
+    "previous_confidence": 0.906250536441803,
+    "review_text": "00",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"35.8\"}, {\"index\": 1, \"text\": \"00\"}, {\"index\": 2, \"text\": \"113.1\"}]}\n```",
+    "batch_total_tokens": 252
+  },
+  "d07e9d346f91234b933c5ce4c7e3656bb9b373252de5a6854360e8ed4f3d2021": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143916.jpg",
+    "cell_id": 1574,
+    "bbox": [
+      3110,
+      2613,
+      97,
+      60
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "113.2",
+    "previous_value": 113.2,
+    "previous_confidence": 0.9126518964767456,
+    "review_text": "113.1",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"35.8\"}, {\"index\": 1, \"text\": \"00\"}, {\"index\": 2, \"text\": \"113.1\"}]}\n```",
+    "batch_total_tokens": 252
+  },
+  "ed4cb3adf84611d8ea09fc6dc72b35b62ec7d4e4c5dbe1d8aa6b819143836ebb": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 20,
+    "bbox": [
+      2319,
+      245,
+      97,
+      228
+    ],
+    "label": "column_header",
+    "rotation": 0,
+    "paddle_text": "Рбь",
+    "previous_value": "Рбь",
+    "previous_confidence": 0.3906385004520416,
+    "review_text": "Коми АССР",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Коми АССР\"},{\"index\":1,\"text\":\"Северо-Осетинская АССР\"},{\"index\":2,\"text\":\"Ульяновская область\"},{\"index\":3,\"text\":\"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 445
+  },
+  "2312ed2c2d0237f2929f5a1c1b0fff13ef2a2fa009da70eeecfe89741bd73b98": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 614,
+    "bbox": [
+      2596,
+      240,
+      99,
+      227
+    ],
+    "label": "column_header",
+    "rotation": 90,
+    "paddle_text": "Сеперо-Осетинская\nСССР",
+    "previous_value": "Сеперо-Осетинская СССР",
+    "previous_confidence": 0.8399785757064819,
+    "review_text": "Северо-Осетинская АССР",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Коми АССР\"},{\"index\":1,\"text\":\"Северо-Осетинская АССР\"},{\"index\":2,\"text\":\"Ульяновская область\"},{\"index\":3,\"text\":\"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 445
+  },
+  "d3030a29de2f1307356ce002c6c6ed30c04bd4057f90b64fea5b48dc78c89889": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 967,
+    "bbox": [
+      553,
+      4045,
+      325,
+      75
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "гюзеп\nУльяновская область",
+    "previous_value": "гюзеп Ульяновская область",
+    "previous_confidence": 0.8419777750968933,
+    "review_text": "Ульяновская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Коми АССР\"},{\"index\":1,\"text\":\"Северо-Осетинская АССР\"},{\"index\":2,\"text\":\"Ульяновская область\"},{\"index\":3,\"text\":\"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 445
+  },
+  "fb729077e4e39124d22a9144e9357aab5a242efbd3c15977dff0a1bce64fc602": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 1283,
+    "bbox": [
+      509,
+      3636,
+      335,
+      83
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "Сахсхлыь\nСвердловская область",
+    "previous_value": "Сахсхлыь Свердловская область",
+    "previous_confidence": 0.8274945914745331,
+    "review_text": "Свердловская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Коми АССР\"},{\"index\":1,\"text\":\"Северо-Осетинская АССР\"},{\"index\":2,\"text\":\"Ульяновская область\"},{\"index\":3,\"text\":\"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 445
+  },
+  "f40d9711e80af912470de1273b3e2b7a46806c7fb21a775a0fe87962c09abd3f": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 1397,
+    "bbox": [
+      474,
+      3757,
+      381,
+      80
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "\nСталинградская область\n)",
+    "previous_value": "Сталинградская область )",
+    "previous_confidence": 0.45054877797762555,
+    "review_text": "Сталинградская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Сталинградская область\"},{\"index\":1,\"text\":\"Ростовская область\"},{\"index\":2,\"text\":\"Рязанская область\"},{\"index\":3,\"text\":\"Тамбовская область\"}]}\n```",
+    "batch_total_tokens": 376
+  },
+  "b4917f3284a57190bf82889be5287b61e6cb94687f0e304e0439eac2b15c260c": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 1402,
+    "bbox": [
+      448,
+      3397,
+      377,
+      81
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "г дс\nРостовская область\nЗя",
+    "previous_value": "г дс Ростовская область Зя",
+    "previous_confidence": 0.6277448932329813,
+    "review_text": "Ростовская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Сталинградская область\"},{\"index\":1,\"text\":\"Ростовская область\"},{\"index\":2,\"text\":\"Рязанская область\"},{\"index\":3,\"text\":\"Тамбовская область\"}]}\n```",
+    "batch_total_tokens": 376
+  },
+  "15c24865241db5b9c20e8e2da16256ddc58477c9e52d56e1691c4471d611af2b": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 1433,
+    "bbox": [
+      453,
+      3457,
+      378,
+      78
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "Рязанская область\nл)",
+    "previous_value": "Рязанская область л)",
+    "previous_confidence": 0.7387331277132034,
+    "review_text": "Рязанская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Сталинградская область\"},{\"index\":1,\"text\":\"Ростовская область\"},{\"index\":2,\"text\":\"Рязанская область\"},{\"index\":3,\"text\":\"Тамбовская область\"}]}\n```",
+    "batch_total_tokens": 376
+  },
+  "0f610a28cea1db4c48be2d0283eb70108dc541b1282d917af8f4a0530032f559": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 1500,
+    "bbox": [
+      478,
+      3815,
+      380,
+      81
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "Сталиягр\nму\nТамбовская область\nб",
+    "previous_value": "Сталиягр му Тамбовская область б",
+    "previous_confidence": 0.8246550112962723,
+    "review_text": "Тамбовская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Сталинградская область\"},{\"index\":1,\"text\":\"Ростовская область\"},{\"index\":2,\"text\":\"Рязанская область\"},{\"index\":3,\"text\":\"Тамбовская область\"}]}\n```",
+    "batch_total_tokens": 376
+  },
+  "cde97625e0b66482a6d46a3f498fab90dafc42d83fcf4ed24e0ff6649270a467": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 1520,
+    "bbox": [
+      500,
+      3872,
+      365,
+      79
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "Томская область\n",
+    "previous_value": "Томская область",
+    "previous_confidence": 0.4891849160194397,
+    "review_text": "Томская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"Томская область\"}]}\n```",
+    "batch_total_tokens": 243
+  },
+  "043ca6fc042c5e78efbfbce81bc54c7212d4fbe29124692e52f87fee2f2c78fc": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 1233,
+    "bbox": [
+      1632,
+      2780,
+      106,
+      64
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "0.7",
+    "previous_value": 0.7,
+    "previous_confidence": 0.909290611743927,
+    "review_text": "0.3",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"0.3\"}, {\"index\": 1, \"text\": \"0.0\"}]}\n```",
+    "batch_total_tokens": 238
+  },
+  "04a41600252c90edb22b66f596ad4f59118d65c7c35da16b941d4f044773bb7c": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143921.jpg",
+    "cell_id": 1248,
+    "bbox": [
+      1583,
+      1909,
+      109,
+      64
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "0.0",
+    "previous_value": 0.0,
+    "previous_confidence": 0.7658424377441406,
+    "review_text": "0.0",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"0.3\"}, {\"index\": 1, \"text\": \"0.0\"}]}\n```",
+    "batch_total_tokens": 238
+  },
+  "d64a0236fd3ec613b77ceece808f34e53774256c88ac22f9b32eaa7716012313": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143926.jpg",
+    "cell_id": 760,
+    "bbox": [
+      381,
+      2243,
+      324,
+      64
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Калужская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Калужская область\"},{\"index\":1,\"text\":\"Московская область\"},{\"index\":2,\"text\":\"Сталинградская область\"},{\"index\":3,\"text\":\"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 363
+  },
+  "5327d5a14f6b74283e41360347d214ba9af990855f4a3dbef5907818338331a4": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143926.jpg",
+    "cell_id": 1311,
+    "bbox": [
+      424,
+      2864,
+      318,
+      81
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "тмалоь\nМосковская область",
+    "previous_value": "тмалоь Московская область",
+    "previous_confidence": 0.8405663371086121,
+    "review_text": "Московская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Калужская область\"},{\"index\":1,\"text\":\"Московская область\"},{\"index\":2,\"text\":\"Сталинградская область\"},{\"index\":3,\"text\":\"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 363
+  },
+  "440d68ea97f73f3eb13fee3bfc355b9f40a3b4a616bb0f9286b64219533afdbf": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143926.jpg",
+    "cell_id": 1419,
+    "bbox": [
+      491,
+      3761,
+      317,
+      79
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "Смсы.\nСталинградская область",
+    "previous_value": "Смсы. Сталинградская область",
+    "previous_confidence": 0.8756308853626251,
+    "review_text": "Сталинградская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Калужская область\"},{\"index\":1,\"text\":\"Московская область\"},{\"index\":2,\"text\":\"Сталинградская область\"},{\"index\":3,\"text\":\"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 363
+  },
+  "eed0aa839b59197f8c081b22ca3d3f7d934f7a98ff1358f053399d07f0b0f65d": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143926.jpg",
+    "cell_id": 1505,
+    "bbox": [
+      479,
+      3646,
+      314,
+      82
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "Сахлла\nСвердловская область",
+    "previous_value": "Сахлла Свердловская область",
+    "previous_confidence": 0.8543755412101746,
+    "review_text": "Свердловская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Калужская область\"},{\"index\":1,\"text\":\"Московская область\"},{\"index\":2,\"text\":\"Сталинградская область\"},{\"index\":3,\"text\":\"Свердловская область\"}]}\n```",
+    "batch_total_tokens": 363
+  },
+  "9f7e8b60024799a4008ac1d84a5cb59445a032678208d87eddd1a7ebade2f82d": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143931.jpg",
+    "cell_id": 969,
+    "bbox": [
+      548,
+      3160,
+      327,
+      81
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "вУР-\nНовгородская область",
+    "previous_value": "вУРНовгородская область",
+    "previous_confidence": 0.8190835416316986,
+    "review_text": "Новгородская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "{\n\"items\": [\n{\n\"index\": 0,\n\"text\": \"Новгородская область\"\n}\n]\n}",
+    "batch_total_tokens": 261
+  },
+  "9e3368200b2c1178afd3ba24c8476107031872d872c938e43a8ff1577df61545": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143936.jpg",
+    "cell_id": 423,
+    "bbox": [
+      410,
+      2278,
+      321,
+      47
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Кемеровская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Кемеровская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Восточно-Казахстанская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 302
+  },
+  "1094bf33672102fe347e509178a70aa52b9d727e5be51cdc9e4d9e37494c2bbe": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143936.jpg",
+    "cell_id": 607,
+    "bbox": [
+      2407,
+      348,
+      96,
+      232
+    ],
+    "label": "column_header",
+    "rotation": 90,
+    "paddle_text": "Восточно-Казахстан-\nская область",
+    "previous_value": "Восточно-Казахстанская область",
+    "previous_confidence": 0.8456279933452606,
+    "review_text": "Восточно-Казахстанская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Кемеровская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Восточно-Казахстанская область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 302
+  },
+  "b276abb3225760fad723bbea0b0371063582ab310683a9bc117efed2678c77e7": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143940.jpg",
+    "cell_id": 0,
+    "bbox": [
+      2486,
+      260,
+      178,
+      202
+    ],
+    "label": "column_header",
+    "rotation": 0,
+    "paddle_text": " ь\nб",
+    "previous_value": "ь б",
+    "previous_confidence": 0.3979940265417099,
+    "review_text": "Всего прибыло",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\n    \"index\": 0,\n    \"text\": \"Всего прибыло\"\n  },\n  {\n    \"index\": 1,\n    \"text\": \"%%% внутрирайонных перевозок\"\n  }\n]\n```",
+    "batch_total_tokens": 312
+  },
+  "57300c6a6bdaa8d18614a91e528c55d5b380cd41ed306e7a104023d62b790e0a": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143940.jpg",
+    "cell_id": 605,
+    "bbox": [
+      2659,
+      248,
+      97,
+      213
+    ],
+    "label": "column_header",
+    "rotation": 90,
+    "paddle_text": "%% птрарадблить\nпревоолоск",
+    "previous_value": "%% птрарадблить превоолоск",
+    "previous_confidence": 0.7409789860248566,
+    "review_text": "%%% внутрирайонных перевозок",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\n    \"index\": 0,\n    \"text\": \"Всего прибыло\"\n  },\n  {\n    \"index\": 1,\n    \"text\": \"%%% внутрирайонных перевозок\"\n  }\n]\n```",
+    "batch_total_tokens": 312
+  },
+  "14155adbbcf3ba3aa41c3b4386bbd125a49843f8a3f8c2dd23c4067b3e2e0d3f": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143940.jpg",
+    "cell_id": 982,
+    "bbox": [
+      2577,
+      3961,
+      167,
+      52
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "24.3",
+    "previous_value": 24.3,
+    "previous_confidence": 0.9047802090644836,
+    "review_text": "24.3",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"24.3\"},\n  {\"index\": 1, \"text\": \"24.5\"},\n  {\"index\": 2, \"text\": \"24.4\"}\n]\n```",
+    "batch_total_tokens": 260
+  },
+  "3aae2997ed280bd525a070c5457be137425228cb326a644386900bb5183897c4": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143940.jpg",
+    "cell_id": 1435,
+    "bbox": [
+      2547,
+      1585,
+      175,
+      64
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "24.5",
+    "previous_value": 24.5,
+    "previous_confidence": 0.9143639206886292,
+    "review_text": "24.5",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"24.3\"},\n  {\"index\": 1, \"text\": \"24.5\"},\n  {\"index\": 2, \"text\": \"24.4\"}\n]\n```",
+    "batch_total_tokens": 260
+  },
+  "698f14061360cd0c1f67ad4a3a3b66354cb7e44fd444f50a47bd1f1f632722ed": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143940.jpg",
+    "cell_id": 1477,
+    "bbox": [
+      2579,
+      3682,
+      168,
+      58
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "24.4",
+    "previous_value": 24.4,
+    "previous_confidence": 0.8914117813110352,
+    "review_text": "24.4",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"24.3\"},\n  {\"index\": 1, \"text\": \"24.5\"},\n  {\"index\": 2, \"text\": \"24.4\"}\n]\n```",
+    "batch_total_tokens": 260
+  },
+  "914469508cddc86dc7f16b3693d6c6c28c26be355063f3585b38d38b1760c4a9": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 64,
+    "bbox": [
+      1088,
+      87,
+      115,
+      240
+    ],
+    "label": "column_header",
+    "rotation": 0,
+    "paddle_text": "ыб",
+    "previous_value": "ыб",
+    "previous_confidence": 0.5844918489456177,
+    "review_text": "Красноярский край",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Красноярский край\"},{\"index\":1,\"text\":\"Витебская область\"},{\"index\":2,\"text\":\"Полоцкая область\"},{\"index\":3,\"text\":\"Пинская область\"}]}\n```",
+    "batch_total_tokens": 442
+  },
+  "4229411fb7c47decc948b1d42cae4a7c7533bbd75a5c0ba70b577ea8b1c068f7": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1276,
+    "bbox": [
+      347,
+      3125,
+      333,
+      83
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "Врестоь\nВитебская область",
+    "previous_value": "Врестоь Витебская область",
+    "previous_confidence": 0.8137632310390472,
+    "review_text": "Витебская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Красноярский край\"},{\"index\":1,\"text\":\"Витебская область\"},{\"index\":2,\"text\":\"Полоцкая область\"},{\"index\":3,\"text\":\"Пинская область\"}]}\n```",
+    "batch_total_tokens": 442
+  },
+  "1686d383af1b63ccfa6ec6c435e36e65f42366bf623a74c19651d22eab132e32": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1280,
+    "bbox": [
+      384,
+      3634,
+      333,
+      83
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "полсл\nПолошкая область",
+    "previous_value": "полсл Полошкая область",
+    "previous_confidence": 0.8506462574005127,
+    "review_text": "Полоцкая область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Красноярский край\"},{\"index\":1,\"text\":\"Витебская область\"},{\"index\":2,\"text\":\"Полоцкая область\"},{\"index\":3,\"text\":\"Пинская область\"}]}\n```",
+    "batch_total_tokens": 442
+  },
+  "0f615d513d79fb90ca874469e80471fd867d53760dbef04934f20fbabf44b1c5": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1323,
+    "bbox": [
+      375,
+      3507,
+      333,
+      83
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "молодь\nПинская область",
+    "previous_value": "молодь Пинская область",
+    "previous_confidence": 0.8800115287303925,
+    "review_text": "Пинская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Красноярский край\"},{\"index\":1,\"text\":\"Витебская область\"},{\"index\":2,\"text\":\"Полоцкая область\"},{\"index\":3,\"text\":\"Пинская область\"}]}\n```",
+    "batch_total_tokens": 442
+  },
+  "a39d522630093ab3818eb827b6d6c9ec80c0ac7f0fed9bb46b9ea77aa0fbc5b3": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1455,
+    "bbox": [
+      350,
+      3191,
+      335,
+      82
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "ввтт\nГомельская область",
+    "previous_value": "ввтт Гомельская область",
+    "previous_confidence": 0.8252305686473846,
+    "review_text": "Гомельская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Гомельская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Минская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Гродненская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Черновицкая область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 440
+  },
+  "31a86964e3f82b84b9b7f86ff07e3426514a380f641df25fa195b8e16b57a9f8": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1473,
+    "bbox": [
+      359,
+      3319,
+      335,
+      81
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "тродоек\nМинская область",
+    "previous_value": "тродоек Минская область",
+    "previous_confidence": 0.8671461939811707,
+    "review_text": "Минская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Гомельская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Минская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Гродненская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Черновицкая область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 440
+  },
+  "857526f598c3c2e22af5d8293e8b96b91411526867ce76d8371d4cad9865328c": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1484,
+    "bbox": [
+      355,
+      3255,
+      334,
+      82
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "гок\nГродненская область",
+    "previous_value": "гок Гродненская область",
+    "previous_confidence": 0.8692778646945953,
+    "review_text": "Гродненская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Гомельская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Минская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Гродненская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Черновицкая область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 440
+  },
+  "6e4d8c007ddc6562574bb6502a69f14959f3e28857aff7d1e33428e4fcee3625": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1501,
+    "bbox": [
+      337,
+      2793,
+      334,
+      83
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "тсрав\nЧерновицкая область",
+    "previous_value": "тсрав Черновицкая область",
+    "previous_confidence": 0.8854085206985474,
+    "review_text": "Черновицкая область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Гомельская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"Минская область\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Гродненская область\"\n    },\n    {\n      \"index\": 3,\n      \"text\": \"Черновицкая область\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 440
+  },
+  "f0aa18b87810c5bc958ab722136ae1fbf9713cb49513d0bf1825d62ed4fc8220": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1510,
+    "bbox": [
+      339,
+      2661,
+      335,
+      81
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "корзиь\nХерсонская область",
+    "previous_value": "корзиь Херсонская область",
+    "previous_confidence": 0.8352822661399841,
+    "review_text": "Херсонская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Херсонская область\"},{\"index\":1,\"text\":\"Грузинская ССР\"},{\"index\":2,\"text\":\"Черниговская область\"},{\"index\":3,\"text\":\"Брестская область\"}]}\n```",
+    "batch_total_tokens": 379
+  },
+  "0007f28f69ac3fc516277f1c7b40c07797f2afbd37ce4dedf97d2832a45c2731": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1528,
+    "bbox": [
+      401,
+      3818,
+      326,
+      79
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "кСЗ\nГрузинская ССР",
+    "previous_value": "кСЗ Грузинская ССР",
+    "previous_confidence": 0.7881253063678741,
+    "review_text": "Грузинская ССР",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Херсонская область\"},{\"index\":1,\"text\":\"Грузинская ССР\"},{\"index\":2,\"text\":\"Черниговская область\"},{\"index\":3,\"text\":\"Брестская область\"}]}\n```",
+    "batch_total_tokens": 379
+  },
+  "3eb2a393ca8dc8f871c18ba9b60f0e59c2f0076688668217d65c9ea26b3a136d": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1549,
+    "bbox": [
+      337,
+      2727,
+      335,
+      82
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "кгрсз\nЧерннговская область",
+    "previous_value": "кгрсз Черннговская область",
+    "previous_confidence": 0.8244998157024384,
+    "review_text": "Черниговская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Херсонская область\"},{\"index\":1,\"text\":\"Грузинская ССР\"},{\"index\":2,\"text\":\"Черниговская область\"},{\"index\":3,\"text\":\"Брестская область\"}]}\n```",
+    "batch_total_tokens": 379
+  },
+  "cf77e2ef6fdc3684238f2bd216596c3d4ce5878db276d9880de586df4cbd613c": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1550,
+    "bbox": [
+      344,
+      3059,
+      334,
+      84
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "вооруве\nБрестская область",
+    "previous_value": "вооруве Брестская область",
+    "previous_confidence": 0.8670411705970764,
+    "review_text": "Брестская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Херсонская область\"},{\"index\":1,\"text\":\"Грузинская ССР\"},{\"index\":2,\"text\":\"Черниговская область\"},{\"index\":3,\"text\":\"Брестская область\"}]}\n```",
+    "batch_total_tokens": 379
+  },
+  "a66cf7992bbbf94ea33beb0ddb207ff0b5a0186cf569d6f9a24ee27a2ad56142": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1355,
+    "bbox": [
+      795,
+      3684,
+      114,
+      63
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "0.0",
+    "previous_value": 0.0,
+    "previous_confidence": 0.8453133702278137,
+    "review_text": "8.0",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"8.0\"}, {\"index\": 1, \"text\": \"112.8\"}, {\"index\": 2, \"text\": \"9.6\"}, {\"index\": 3, \"text\": \"497\"}]}\n```",
+    "batch_total_tokens": 273
+  },
+  "975ebf24a0966b5c146b2fa0a3c27561a5efed6b1fd7589f25264b2789f2e558": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1468,
+    "bbox": [
+      654,
+      1233,
+      118,
+      68
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "112.8",
+    "previous_value": 112.8,
+    "previous_confidence": 0.9410479664802551,
+    "review_text": "112.8",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"8.0\"}, {\"index\": 1, \"text\": \"112.8\"}, {\"index\": 2, \"text\": \"9.6\"}, {\"index\": 3, \"text\": \"497\"}]}\n```",
+    "batch_total_tokens": 273
+  },
+  "ff04f24ceb0a31cf1e4e4d76ece092f4d37c563d635b0446d8716397c18c2b04": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1552,
+    "bbox": [
+      803,
+      3806,
+      114,
+      62
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "9.6",
+    "previous_value": 9.6,
+    "previous_confidence": 0.8104106783866882,
+    "review_text": "9.6",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"8.0\"}, {\"index\": 1, \"text\": \"112.8\"}, {\"index\": 2, \"text\": \"9.6\"}, {\"index\": 3, \"text\": \"497\"}]}\n```",
+    "batch_total_tokens": 273
+  },
+  "a92b672f4be79cec12845644bf8506fc9066a48304971f753e2b32bd20672efa": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143945.jpg",
+    "cell_id": 1560,
+    "bbox": [
+      744,
+      2159,
+      115,
+      55
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "49.7",
+    "previous_value": 49.7,
+    "previous_confidence": 0.8985686302185059,
+    "review_text": "497",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"8.0\"}, {\"index\": 1, \"text\": \"112.8\"}, {\"index\": 2, \"text\": \"9.6\"}, {\"index\": 3, \"text\": \"497\"}]}\n```",
+    "batch_total_tokens": 273
+  },
+  "5b560267c439b8ed152733c8e67fa5957fe1b5213360e7d0ffcd819a160b12f0": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143951.jpg",
+    "cell_id": 1442,
+    "bbox": [
+      474,
+      3895,
+      326,
+      77
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "б\nГрузинская ССР",
+    "previous_value": "б Грузинская ССР",
+    "previous_confidence": 0.8349331021308899,
+    "review_text": "Грузинская ССР",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Грузинская ССР\"}]}\n```",
+    "batch_total_tokens": 254
+  },
+  "5ad64a21844e38cb1897256fd97173122be3204dbae42690c5d90f4802fe9637": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143951.jpg",
+    "cell_id": 1231,
+    "bbox": [
+      3138,
+      531,
+      89,
+      53
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "12.3",
+    "previous_value": 12.3,
+    "previous_confidence": 0.8941161632537842,
+    "review_text": "12.3",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"12.3\"}, {\"index\": 1, \"text\": \"111.6\"}, {\"index\": 2, \"text\": \"4516\"}, {\"index\": 3, \"text\": \"0.3\"}]}\n```",
+    "batch_total_tokens": 264
+  },
+  "642ff252a6656508951174778f2adcff079db4df7319e86bc2aa31e23ee928ca": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143951.jpg",
+    "cell_id": 1331,
+    "bbox": [
+      3157,
+      1355,
+      90,
+      64
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "111.6",
+    "previous_value": 111.6,
+    "previous_confidence": 0.9158909916877747,
+    "review_text": "111.6",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"12.3\"}, {\"index\": 1, \"text\": \"111.6\"}, {\"index\": 2, \"text\": \"4516\"}, {\"index\": 3, \"text\": \"0.3\"}]}\n```",
+    "batch_total_tokens": 264
+  },
+  "fab3175bdfd7e8d3992146b97eaa746f049a3f9fc08ff0930649377c079ec4d6": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143951.jpg",
+    "cell_id": 1349,
+    "bbox": [
+      3158,
+      1290,
+      89,
+      64
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "4516",
+    "previous_value": 4516.0,
+    "previous_confidence": 0.9194584488868713,
+    "review_text": "4516",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"12.3\"}, {\"index\": 1, \"text\": \"111.6\"}, {\"index\": 2, \"text\": \"4516\"}, {\"index\": 3, \"text\": \"0.3\"}]}\n```",
+    "batch_total_tokens": 264
+  },
+  "0f0fc4c91d794c4cff1b2f5b63f02afeef8d32f34750914ffbf3006c34be0251": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143951.jpg",
+    "cell_id": 1387,
+    "bbox": [
+      3154,
+      1030,
+      92,
+      63
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "0.3",
+    "previous_value": 0.3,
+    "previous_confidence": 0.9231433272361755,
+    "review_text": "0.3",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"12.3\"}, {\"index\": 1, \"text\": \"111.6\"}, {\"index\": 2, \"text\": \"4516\"}, {\"index\": 3, \"text\": \"0.3\"}]}\n```",
+    "batch_total_tokens": 264
+  },
+  "c6ba1881edb0a8a8dfe9e064fd4b11fa800be9d1b3fd173c9a804d4f81c33d09": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143951.jpg",
+    "cell_id": 1529,
+    "bbox": [
+      3074,
+      2508,
+      92,
+      58
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "11.2",
+    "previous_value": 11.2,
+    "previous_confidence": 0.9462008476257324,
+    "review_text": "11.2",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"11.2\"}, {\"index\": 1, \"text\": \"49.2\"}]}\n```",
+    "batch_total_tokens": 240
+  },
+  "0493761056bec45cef238b3226febff2a78b194d4abab1e56d477ad1ec5f73d7": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143951.jpg",
+    "cell_id": 1568,
+    "bbox": [
+      3073,
+      2218,
+      92,
+      53
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "49.7",
+    "previous_value": 49.7,
+    "previous_confidence": 0.8518807291984558,
+    "review_text": "49.2",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"11.2\"}, {\"index\": 1, \"text\": \"49.2\"}]}\n```",
+    "batch_total_tokens": 240
+  },
+  "2998950e0b33f19fb1291402a52ae5f38becda7766bffc07b99f44e3c7f5e1de": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_143956.jpg",
+    "cell_id": 329,
+    "bbox": [
+      2377,
+      148,
+      97,
+      231
+    ],
+    "label": "column_header",
+    "rotation": 0,
+    "paddle_text": " ",
+    "previous_value": "",
+    "previous_confidence": 0.5276459455490112,
+    "review_text": "Колп АССР",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"Колп АССР\"}]}\n```",
+    "batch_total_tokens": 246
+  },
+  "89a69e82fb3cbdf13858cbc36f9a828f4d63a6e0775d84ff50958ea202685edc": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144009.jpg",
+    "cell_id": 1504,
+    "bbox": [
+      281,
+      450,
+      340,
+      68
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "",
+    "previous_value": "",
+    "previous_confidence": 0.0,
+    "review_text": "Ярославская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Ярославская область\"}]}\n```",
+    "batch_total_tokens": 240
+  },
+  "84fba631f4fe81c191b88a576e443e945f85bdf33e9d3f5de55b0a8be25921ed": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144009.jpg",
+    "cell_id": 1166,
+    "bbox": [
+      2147,
+      3700,
+      104,
+      58
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "28.5",
+    "previous_value": 28.5,
+    "previous_confidence": 0.9090926647186279,
+    "review_text": "98.5",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"98.5\"}]}\n```",
+    "batch_total_tokens": 225
+  },
+  "3a87067a3a60a3e68f7996f51d9a8099208db28f775fd8ffd0d5e2dd16ff8014": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144014.jpg",
+    "cell_id": 38,
+    "bbox": [
+      2051,
+      223,
+      96,
+      216
+    ],
+    "label": "column_header",
+    "rotation": 0,
+    "paddle_text": "б",
+    "previous_value": "б",
+    "previous_confidence": 0.51761794090271,
+    "review_text": "Акмолінская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Акмолінская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"В т. ч.: а) Абхазская АССР\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Дагестанская АССР\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 426
+  },
+  "9e6968d680f1b8bdc76e09ba0a1dce1e8dfbae348d380be3b2bdbc00c8950b32": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144014.jpg",
+    "cell_id": 1037,
+    "bbox": [
+      463,
+      3890,
+      320,
+      77
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "вру\nВ т. ч.: а) Абхазская\nАССР",
+    "previous_value": "вру В т. ч.: а) Абхазская АССР",
+    "previous_confidence": 0.9200953046480814,
+    "review_text": "В т. ч.: а) Абхазская АССР",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Акмолінская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"В т. ч.: а) Абхазская АССР\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Дагестанская АССР\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 426
+  },
+  "4e0e2b13d04c4f281a0868f940bed91a2db1e2a86fd7a11b46be7686a192c27f": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144014.jpg",
+    "cell_id": 1118,
+    "bbox": [
+      251,
+      665,
+      340,
+      66
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "АССР\nо \nДагестанская",
+    "previous_value": "АССР о Дагестанская",
+    "previous_confidence": 0.8645519812901815,
+    "review_text": "Дагестанская АССР",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Акмолінская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"В т. ч.: а) Абхазская АССР\"\n    },\n    {\n      \"index\": 2,\n      \"text\": \"Дагестанская АССР\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 426
+  },
+  "c690567c538ef1703cc8abcfbe3cce48e01ceb236b469e7e136ccd3fbf897279": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144014.jpg",
+    "cell_id": 1414,
+    "bbox": [
+      2368,
+      1226,
+      93,
+      67
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "0.0",
+    "previous_value": 0.0,
+    "previous_confidence": 0.8580021858215332,
+    "review_text": "0.0",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"0.0\"}\n]\n```",
+    "batch_total_tokens": 230
+  },
+  "9d69b3fb5270a166afb5e1e997ae7ed80b65c126bc6a6a7f1835a79a05238ff0": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144019.jpg",
+    "cell_id": 129,
+    "bbox": [
+      2629,
+      274,
+      186,
+      220
+    ],
+    "label": "column_header",
+    "rotation": 0,
+    "paddle_text": "с бь\nг\nь\nз",
+    "previous_value": "с бь г ь з",
+    "previous_confidence": 0.6738376170396805,
+    "review_text": "Всего прибыло",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\n    \"index\": 0,\n    \"text\": \"Всего прибыло\"\n  }\n]\n```",
+    "batch_total_tokens": 249
+  },
+  "37bc4b076279b44d2650870da5f2c697fac9f625bcb5e5856345d76815f9a849": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144019.jpg",
+    "cell_id": 1223,
+    "bbox": [
+      2656,
+      3803,
+      169,
+      56
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "4.8",
+    "previous_value": 4.8,
+    "previous_confidence": 0.8841326236724854,
+    "review_text": "4.8",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"4.8\"},\n  {\"index\": 1, \"text\": \"12.3\"}\n]\n```",
+    "batch_total_tokens": 247
+  },
+  "70c9351eecc1eb13d57e13e8b4c68374993db3d3d62076ebce244e0dcc938767": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144019.jpg",
+    "cell_id": 1575,
+    "bbox": [
+      2646,
+      527,
+      183,
+      45
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "12.3",
+    "previous_value": 12.3,
+    "previous_confidence": 0.8456518650054932,
+    "review_text": "12.3",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"4.8\"},\n  {\"index\": 1, \"text\": \"12.3\"}\n]\n```",
+    "batch_total_tokens": 247
+  },
+  "203030b5ed6bf07463c13150eb189810c5103baefdac95403db92b10047781a5": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144023.jpg",
+    "cell_id": 1568,
+    "bbox": [
+      2947,
+      319,
+      106,
+      190
+    ],
+    "label": "column_header",
+    "rotation": 90,
+    "paddle_text": "Калиникряяадскаяй\nобласть",
+    "previous_value": "Калиникряяадскаяй область",
+    "previous_confidence": 0.8673360347747803,
+    "review_text": "Калининградская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "{\"items\":[{\"index\":0,\"text\":\"Калининградская область\"}]}",
+    "batch_total_tokens": 240
+  },
+  "e209df18703aaa61acf8e8abe50ca3bd5458d9a7479fc615671c2d2802434248": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144023.jpg",
+    "cell_id": 1336,
+    "bbox": [
+      762,
+      1664,
+      114,
+      65
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "151.4",
+    "previous_value": 151.4,
+    "previous_confidence": 0.9487303495407104,
+    "review_text": "151.4",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"151.4\"}, {\"index\": 1, \"text\": \"13.1\"}, {\"index\": 2, \"text\": \"23457\"}, {\"index\": 3, \"text\": \"424\"}]}\n```",
+    "batch_total_tokens": 276
+  },
+  "0768a9dc12b848f30e85fc97bee8a97594ad44bf367782c6df139218bf268707": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144023.jpg",
+    "cell_id": 1340,
+    "bbox": [
+      863,
+      3196,
+      109,
+      63
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "13.1",
+    "previous_value": 13.1,
+    "previous_confidence": 0.8827520608901978,
+    "review_text": "13.1",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"151.4\"}, {\"index\": 1, \"text\": \"13.1\"}, {\"index\": 2, \"text\": \"23457\"}, {\"index\": 3, \"text\": \"424\"}]}\n```",
+    "batch_total_tokens": 276
+  },
+  "d3b0160e8f3a2adf593c937d1b279b7311d63847b067851818eb5c88663ed903": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144023.jpg",
+    "cell_id": 1378,
+    "bbox": [
+      886,
+      3563,
+      109,
+      60
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "2345.7",
+    "previous_value": 2345.7,
+    "previous_confidence": 0.9292340874671936,
+    "review_text": "23457",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"151.4\"}, {\"index\": 1, \"text\": \"13.1\"}, {\"index\": 2, \"text\": \"23457\"}, {\"index\": 3, \"text\": \"424\"}]}\n```",
+    "batch_total_tokens": 276
+  },
+  "271a20e0f209170f4eed9ab71977d60bbeb22d069e7e9d7f2688fd2345194d47": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144023.jpg",
+    "cell_id": 1527,
+    "bbox": [
+      866,
+      3259,
+      109,
+      63
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "474",
+    "previous_value": 474.0,
+    "previous_confidence": 0.8000404834747314,
+    "review_text": "424",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"151.4\"}, {\"index\": 1, \"text\": \"13.1\"}, {\"index\": 2, \"text\": \"23457\"}, {\"index\": 3, \"text\": \"424\"}]}\n```",
+    "batch_total_tokens": 276
+  },
+  "a165007cdff085b0886be92c0f88eaef842ce60b88ead1fa6181192e9fbc4a6a": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144023.jpg",
+    "cell_id": 1541,
+    "bbox": [
+      796,
+      2057,
+      116,
+      61
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "76.9",
+    "previous_value": 76.9,
+    "previous_confidence": 0.8539609313011169,
+    "review_text": "76.9",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"76.9\"},\n  {\"index\": 1, \"text\": \"0.1\"}\n]\n```",
+    "batch_total_tokens": 242
+  },
+  "4203c463866e0a5eb0aa8a08347e74a95e8fbf589abe758fa9aeb6954e81ee97": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144023.jpg",
+    "cell_id": 1553,
+    "bbox": [
+      738,
+      1327,
+      114,
+      66
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "0.1",
+    "previous_value": 0.1,
+    "previous_confidence": 0.9476528167724609,
+    "review_text": "0.1",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n  {\"index\": 0, \"text\": \"76.9\"},\n  {\"index\": 1, \"text\": \"0.1\"}\n]\n```",
+    "batch_total_tokens": 242
+  },
+  "87c16f286f25849130dfd6314d7c37c7f917a9c8c02ccefbdf10363c36c263cc": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144029.jpg",
+    "cell_id": 1333,
+    "bbox": [
+      3095,
+      3102,
+      87,
+      61
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "47.4",
+    "previous_value": 47.4,
+    "previous_confidence": 0.9057822823524475,
+    "review_text": "474",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n[\n\t{\"index\": 0, \"text\": \"474\"}\n]\n```",
+    "batch_total_tokens": 219
+  },
+  "6b47b8d212e9fe46cde0636537fa102911c2bcba6befa1d0f9ea4354056fe252": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144034.jpg",
+    "cell_id": 809,
+    "bbox": [
+      300,
+      560,
+      332,
+      58
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "Туркменская ССР\n ",
+    "previous_value": "Туркменская ССР",
+    "previous_confidence": 0.9396995306015015,
+    "review_text": "Туркменская ССР",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Туркменская ССР\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"%% внутрирайонных перевозок\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 303
+  },
+  "a5535ff0b55b9875bc4d769276ad9a767859159d97ed78d3fc5938052ac6da31": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144034.jpg",
+    "cell_id": 1504,
+    "bbox": [
+      458,
+      3625,
+      309,
+      74
+    ],
+    "label": "row_header",
+    "rotation": 0,
+    "paddle_text": "оерт",
+    "previous_value": "оерт",
+    "previous_confidence": 0.7813467383384705,
+    "review_text": "%% внутрирайонных перевозок",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Туркменская ССР\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"%% внутрирайонных перевозок\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 303
+  },
+  "a9eab941c2d1c09984462fb5b50b4b73b60c377eb636b0c756805a8ad1bbc498": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144034.jpg",
+    "cell_id": 1043,
+    "bbox": [
+      1586,
+      3539,
+      103,
+      58
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "96.4",
+    "previous_value": 96.4,
+    "previous_confidence": 0.827738344669342,
+    "review_text": "0.964",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"0.964\"}]}\n```",
+    "batch_total_tokens": 222
+  },
+  "e66bf77e897e4a380e6faa205cd85c4d014a134ecd1d3bba491d79411a19d248": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144047.jpg",
+    "cell_id": 810,
+    "bbox": [
+      2771,
+      211,
+      101,
+      208
+    ],
+    "label": "column_header",
+    "rotation": 90,
+    "paddle_text": "Западно-Казахста\nая кобласть",
+    "previous_value": "Западно-Казахста ая кобласть",
+    "previous_confidence": 0.8664494156837463,
+    "review_text": "Западно-Казахстанская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\":[{\"index\":0,\"text\":\"Западно-Казахстанская область\"}]}\n```",
+    "batch_total_tokens": 248
+  },
+  "39f8f31b9cf64f98b14fffae9c50aa6d58a870102234e83966f3eae3bc1b26d7": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144057.jpg",
+    "cell_id": 10,
+    "bbox": [
+      1301,
+      294,
+      78,
+      166
+    ],
+    "label": "column_header",
+    "rotation": 0,
+    "paddle_text": "б.\nГо",
+    "previous_value": "б. Го",
+    "previous_confidence": 0.44424694776535034,
+    "review_text": "Южно-Казахстанская область",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Южно-Казахстанская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"95% внутренних перевозок\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 296
+  },
+  "b84f8e897a511bf45a9b9777e083ab17107f1c62d84bb95875f6b9925c00d2a2": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144057.jpg",
+    "cell_id": 28,
+    "bbox": [
+      2532,
+      310,
+      87,
+      183
+    ],
+    "label": "column_header",
+    "rotation": 90,
+    "paddle_text": "К%бя патптар Аблий\nпероволокк",
+    "previous_value": "К%бя патптар Аблий пероволокк",
+    "previous_confidence": 0.7259953916072845,
+    "review_text": "95% внутренних перевозок",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\n  \"items\": [\n    {\n      \"index\": 0,\n      \"text\": \"Южно-Казахстанская область\"\n    },\n    {\n      \"index\": 1,\n      \"text\": \"95% внутренних перевозок\"\n    }\n  ]\n}\n```",
+    "batch_total_tokens": 296
+  },
+  "0f9dea0b0469277f918fb6a502339d292c71b4faa05def6b4f9e9a95fd5bba91": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144057.jpg",
+    "cell_id": 851,
+    "bbox": [
+      2410,
+      1715,
+      143,
+      52
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "76.9",
+    "previous_value": 76.9,
+    "previous_confidence": 0.9439458250999451,
+    "review_text": "36.9",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"36.9\"}, {\"index\": 1, \"text\": \"1.3\"}, {\"index\": 2, \"text\": \"2383.0\"}]}\n```",
+    "batch_total_tokens": 256
+  },
+  "738ba501f7c44bb4dae46822a67ec604eef9ecfe8fa3977cb3b47d420868b9da": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144057.jpg",
+    "cell_id": 882,
+    "bbox": [
+      2405,
+      2229,
+      139,
+      51
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "1.3",
+    "previous_value": 1.3,
+    "previous_confidence": 0.8697459101676941,
+    "review_text": "1.3",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"36.9\"}, {\"index\": 1, \"text\": \"1.3\"}, {\"index\": 2, \"text\": \"2383.0\"}]}\n```",
+    "batch_total_tokens": 256
+  },
+  "dde039eaeb4e2f6b2bae456054c27667ab12ce019070718610458648517a26c6": {
+    "page_name": "1953 Ф. 1562. Оп. 11. Д. 4471. Серный колчедан/20231220_144057.jpg",
+    "cell_id": 1184,
+    "bbox": [
+      2406,
+      2973,
+      127,
+      54
+    ],
+    "label": "value",
+    "rotation": 0,
+    "paddle_text": "2383.0",
+    "previous_value": 2383.0,
+    "previous_confidence": 0.9498887658119202,
+    "review_text": "2383.0",
+    "model": "gpt://b1g4icbc14i56fhpcoi8/qwen3.6-35b-a3b/latest",
+    "raw_response": "```json\n{\"items\": [{\"index\": 0, \"text\": \"36.9\"}, {\"index\": 1, \"text\": \"1.3\"}, {\"index\": 2, \"text\": \"2383.0\"}]}\n```",
+    "batch_total_tokens": 256
+  }
+}

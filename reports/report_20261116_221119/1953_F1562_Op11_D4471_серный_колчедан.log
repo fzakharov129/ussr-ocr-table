@@ -1,0 +1,191 @@
+[1/11] detection
+Загрузка моделей детекции...
+
+Детекция:   0%|          | 0/21 [00:00<?, ?стр./s]
+Детекция:   5%|▍         | 1/21 [00:24<08:03, 24.18s/стр.]
+Детекция:  10%|▉         | 2/21 [00:43<06:49, 21.55s/стр.]
+Детекция:  14%|█▍        | 3/21 [01:03<06:11, 20.65s/стр.]
+Детекция:  19%|█▉        | 4/21 [01:23<05:46, 20.36s/стр.]
+Детекция:  24%|██▍       | 5/21 [01:43<05:21, 20.11s/стр.]
+Детекция:  29%|██▊       | 6/21 [02:04<05:06, 20.44s/стр.]
+Детекция:  33%|███▎      | 7/21 [02:26<04:52, 20.93s/стр.]
+Детекция:  38%|███▊      | 8/21 [02:49<04:41, 21.65s/стр.]
+Детекция:  43%|████▎     | 9/21 [03:11<04:22, 21.84s/стр.]
+Детекция:  48%|████▊     | 10/21 [03:34<04:03, 22.16s/стр.]
+Детекция:  52%|█████▏    | 11/21 [03:57<03:43, 22.34s/стр.]
+Детекция:  57%|█████▋    | 12/21 [04:19<03:20, 22.33s/стр.]
+Детекция:  62%|██████▏   | 13/21 [04:41<02:57, 22.17s/стр.]
+Детекция:  67%|██████▋   | 14/21 [05:03<02:35, 22.27s/стр.]
+Детекция:  71%|███████▏  | 15/21 [05:26<02:14, 22.45s/стр.]
+Детекция:  76%|███████▌  | 16/21 [05:48<01:51, 22.35s/стр.]
+Детекция:  81%|████████  | 17/21 [06:10<01:29, 22.26s/стр.]
+Детекция:  86%|████████▌ | 18/21 [06:34<01:07, 22.57s/стр.]
+Детекция:  90%|█████████ | 19/21 [06:57<00:45, 22.81s/стр.]
+Детекция:  95%|█████████▌| 20/21 [07:20<00:22, 22.95s/стр.]
+Детекция: 100%|██████████| 21/21 [07:43<00:00, 22.92s/стр.]
+Детекция: 100%|██████████| 21/21 [07:43<00:00, 22.08s/стр.]
+[2/11] ocr
+Загрузка моделей PaddleOCR...
+INFO: Could not find files for the given pattern(s).
+D:\projects\ussr-ocr-table\.venv\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Skipping import of the encryption module.
+Model files already exist. Using cached files. To redownload, please delete the directory manually: `C:\Users\HUAWEI\.paddlex\official_models\PP-OCRv5_mobile_det`.
+
+PaddleOCR:   0%|          | 0/21 [00:00<?, ?стр./s]
+PaddleOCR:   5%|▍         | 1/21 [01:39<33:01, 99.08s/стр.]
+PaddleOCR:  10%|▉         | 2/21 [03:18<31:27, 99.32s/стр.]
+PaddleOCR:  14%|█▍        | 3/21 [04:51<28:58, 96.60s/стр.]
+PaddleOCR:  19%|█▉        | 4/21 [06:05<24:49, 87.62s/стр.]
+PaddleOCR:  24%|██▍       | 5/21 [07:24<22:28, 84.26s/стр.]
+PaddleOCR:  29%|██▊       | 6/21 [08:34<19:54, 79.65s/стр.]
+PaddleOCR:  33%|███▎      | 7/21 [10:00<19:01, 81.52s/стр.]
+PaddleOCR:  38%|███▊      | 8/21 [11:40<18:58, 87.59s/стр.]
+PaddleOCR:  43%|████▎     | 9/21 [13:01<17:04, 85.37s/стр.]
+PaddleOCR:  48%|████▊     | 10/21 [14:24<15:31, 84.68s/стр.]
+PaddleOCR:  52%|█████▏    | 11/21 [15:38<13:34, 81.41s/стр.]
+PaddleOCR:  57%|█████▋    | 12/21 [16:51<11:50, 78.94s/стр.]
+PaddleOCR:  62%|██████▏   | 13/21 [18:11<10:34, 79.31s/стр.]
+PaddleOCR:  67%|██████▋   | 14/21 [19:38<09:31, 81.68s/стр.]
+PaddleOCR:  71%|███████▏  | 15/21 [20:55<07:59, 79.99s/стр.]
+PaddleOCR:  76%|███████▌  | 16/21 [22:12<06:36, 79.23s/стр.]
+PaddleOCR:  81%|████████  | 17/21 [23:20<05:03, 75.79s/стр.]
+PaddleOCR:  86%|████████▌ | 18/21 [24:29<03:41, 73.89s/стр.]
+PaddleOCR:  90%|█████████ | 19/21 [25:38<02:24, 72.37s/стр.]
+PaddleOCR:  95%|█████████▌| 20/21 [26:53<01:13, 73.24s/стр.]
+PaddleOCR: 100%|██████████| 21/21 [28:09<00:00, 74.03s/стр.]
+PaddleOCR: 100%|██████████| 21/21 [28:09<00:00, 80.46s/стр.]
+[3/11] review
+
+Проверка VLM:   0%|          | 0/18 [00:00<?, ?стр./s][2026-11-17 00:32:52,311] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:32:53,193] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:32:53,987] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:32:55,176] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:32:55,993] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:32:56,997] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:00,003] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:00,877] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:01,540] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:02,400] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:03,154] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:   6%|▌         | 1/18 [00:13<03:45, 13.28s/стр.][2026-11-17 00:33:03,907] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:04,797] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  11%|█         | 2/18 [00:14<01:42,  6.43s/стр.][2026-11-17 00:33:06,517] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:07,293] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:07,857] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:08,425] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  17%|█▋        | 3/18 [00:18<01:17,  5.15s/стр.][2026-11-17 00:33:09,408] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  22%|██▏       | 4/18 [00:19<00:49,  3.51s/стр.][2026-11-17 00:33:10,200] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  28%|██▊       | 5/18 [00:20<00:32,  2.53s/стр.][2026-11-17 00:33:11,114] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  33%|███▎      | 6/18 [00:21<00:23,  1.98s/стр.][2026-11-17 00:33:12,045] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:12,702] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  39%|███▉      | 7/18 [00:22<00:20,  1.85s/стр.][2026-11-17 00:33:13,669] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:15,305] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:16,216] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:18,919] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  44%|████▍     | 8/18 [00:29<00:32,  3.24s/стр.][2026-11-17 00:33:19,685] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:20,641] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:21,289] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  50%|█████     | 9/18 [00:31<00:26,  2.97s/стр.][2026-11-17 00:33:22,094] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  56%|█████▌    | 10/18 [00:32<00:18,  2.30s/стр.][2026-11-17 00:33:22,825] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:23,320] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  61%|██████    | 11/18 [00:33<00:13,  1.97s/стр.][2026-11-17 00:33:24,377] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:24,873] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  67%|██████▋   | 12/18 [00:35<00:11,  1.85s/стр.][2026-11-17 00:33:27,609] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:28,161] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  72%|███████▏  | 13/18 [00:38<00:11,  2.28s/стр.][2026-11-17 00:33:29,556] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:30,359] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:31,004] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  78%|███████▊  | 14/18 [00:41<00:09,  2.45s/стр.][2026-11-17 00:33:31,745] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  83%|████████▎ | 15/18 [00:41<00:05,  1.93s/стр.][2026-11-17 00:33:32,950] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:33,489] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  89%|████████▉ | 16/18 [00:43<00:03,  1.88s/стр.][2026-11-17 00:33:35,433] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM:  94%|█████████▍| 17/18 [00:45<00:01,  1.90s/стр.][2026-11-17 00:33:36,390] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+[2026-11-17 00:33:37,050] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка VLM: 100%|██████████| 18/18 [00:47<00:00,  1.81s/стр.]
+Проверка VLM: 100%|██████████| 18/18 [00:47<00:00,  2.62s/стр.]
+[4/11] normalization
+[5/11] header_review
+
+Проверка названий VLM:   0%|          | 0/14 [00:00<?, ?it/s][2026-11-17 00:33:41,132] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:   7%|▋         | 1/14 [00:01<00:20,  1.55s/it][2026-11-17 00:33:41,779] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  14%|█▍        | 2/14 [00:02<00:12,  1.02s/it][2026-11-17 00:33:43,398] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  21%|██▏       | 3/14 [00:03<00:14,  1.29s/it][2026-11-17 00:33:44,043] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  29%|██▊       | 4/14 [00:04<00:10,  1.04s/it][2026-11-17 00:33:45,211] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  36%|███▌      | 5/14 [00:05<00:09,  1.09s/it][2026-11-17 00:33:46,674] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  43%|████▎     | 6/14 [00:07<00:09,  1.21s/it][2026-11-17 00:33:48,065] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  50%|█████     | 7/14 [00:08<00:08,  1.28s/it][2026-11-17 00:33:50,243] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  57%|█████▋    | 8/14 [00:10<00:09,  1.56s/it][2026-11-17 00:33:52,610] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  64%|██████▍   | 9/14 [00:13<00:09,  1.81s/it][2026-11-17 00:33:54,367] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  71%|███████▏  | 10/14 [00:14<00:07,  1.79s/it][2026-11-17 00:33:56,148] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  79%|███████▊  | 11/14 [00:16<00:05,  1.79s/it][2026-11-17 00:33:57,617] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  86%|████████▌ | 12/14 [00:18<00:03,  1.69s/it][2026-11-17 00:33:59,936] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM:  93%|█████████▎| 13/14 [00:20<00:01,  1.89s/it][2026-11-17 00:34:01,579] [    INFO] _client.py:1085 - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+
+Проверка названий VLM: 100%|██████████| 14/14 [00:22<00:00,  1.81s/it]
+Проверка названий VLM: 100%|██████████| 14/14 [00:22<00:00,  1.57s/it]
+Рассмотрено уникальных названий: 280; исправлений: 88
+[6/11] structure
+
+Графы:   0%|          | 0/21 [00:00<?, ?стр./s]
+Графы:   5%|▍         | 1/21 [00:06<02:06,  6.32s/стр.]
+Графы:  10%|▉         | 2/21 [00:12<02:02,  6.47s/стр.]
+Графы:  14%|█▍        | 3/21 [00:18<01:53,  6.28s/стр.]
+Графы:  19%|█▉        | 4/21 [00:25<01:45,  6.20s/стр.]
+Графы:  24%|██▍       | 5/21 [00:31<01:38,  6.13s/стр.]
+Графы:  29%|██▊       | 6/21 [00:37<01:34,  6.28s/стр.]
+Графы:  33%|███▎      | 7/21 [00:44<01:28,  6.34s/стр.]
+Графы:  38%|███▊      | 8/21 [00:50<01:23,  6.41s/стр.]
+Графы:  43%|████▎     | 9/21 [00:57<01:17,  6.45s/стр.]
+Графы:  48%|████▊     | 10/21 [01:03<01:09,  6.32s/стр.]
+Графы:  52%|█████▏    | 11/21 [01:09<01:02,  6.22s/стр.]
+Графы:  57%|█████▋    | 12/21 [01:15<00:55,  6.17s/стр.]
+Графы:  62%|██████▏   | 13/21 [01:21<00:50,  6.27s/стр.]
+Графы:  67%|██████▋   | 14/21 [01:28<00:44,  6.36s/стр.]
+Графы:  71%|███████▏  | 15/21 [01:34<00:38,  6.41s/стр.]
+Графы:  76%|███████▌  | 16/21 [01:41<00:32,  6.52s/стр.]
+Графы:  81%|████████  | 17/21 [01:47<00:25,  6.32s/стр.]
+Графы:  86%|████████▌ | 18/21 [01:53<00:18,  6.18s/стр.]
+Графы:  90%|█████████ | 19/21 [01:59<00:12,  6.09s/стр.]
+Графы:  95%|█████████▌| 20/21 [02:05<00:06,  6.18s/стр.]
+Графы: 100%|██████████| 21/21 [02:11<00:00,  6.22s/стр.]
+Графы: 100%|██████████| 21/21 [02:11<00:00,  6.28s/стр.]
+[7/11] page_tables
+[8/11] sequence_review
+[9/11] republic_headers
+[10/11] assembly
+[11/11] export
+JSON: D:\projects\ussr-ocr-table\outputs\teacher_report_20261116_221119\1953_F1562_Op11_D4471_серный_колчедан\book.json
+XLSX: D:\projects\ussr-ocr-table\outputs\teacher_report_20261116_221119\1953_F1562_Op11_D4471_серный_колчедан\book.xlsx
+Таблицы страниц: D:\projects\ussr-ocr-table\outputs\teacher_report_20261116_221119\1953_F1562_Op11_D4471_серный_колчедан\pages_xlsx
