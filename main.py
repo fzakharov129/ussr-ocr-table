@@ -39,6 +39,10 @@ def main() -> None:
         print(f"JSON: {paths['json']}")
         print(f"XLSX: {paths['xlsx']}")
         print(f"Таблицы страниц: {paths['pages_dir']}")
+        if "corrected_created" in paths:
+            print(f"Копии для исправления: {paths['corrected_created']}")
+        elif "corrected_existing" in paths:
+            print("Найден существующий набор исправлений; он оставлен без изменений.")
 
 
 if __name__ == "__main__":

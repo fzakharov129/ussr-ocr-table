@@ -84,6 +84,7 @@ def show_book_stage(
     show_ids: bool = True,
     show_boxes: bool | None = None,
     show_graph: bool = False,
+    show_cell_legend: bool = False,
     save_dir: str | Path | None = None,
     show: bool = True,
     figsize: tuple[float, float] | None = None,
@@ -95,6 +96,7 @@ def show_book_stage(
     show_boxes=None hides boxes when showing graphs; True/False overrides this.
     show_values adds recognized_value (falling back to ocr_value) inside bbox.
     show_graph draws saved edges/nodes for structure or result/assembly only.
+    show_cell_legend adds the meaning of the cell colors.
     save_dir=None writes no images. show=False permits saving without display.
     Returns saved PNG paths, or [] when only displaying in the notebook.
     """
@@ -164,12 +166,28 @@ def show_book_stage(
                                              "edgecolor": "none", "pad": 1})
                         text.set_clip_path(box)
             ax.set_title(f"{zip_path.stem} | {stage} | {index}/{len(pages)} | {page_name}")
-            if show_graph:
+            if show_graph or show_cell_legend:
                 from matplotlib.lines import Line2D
-                ax.legend(handles=[
-                    Line2D([0], [0], color="#0080ff", label="left / right"),
-                    Line2D([0], [0], color="#ff2020", label="up / down"),
-                ], loc="upper right", fontsize=8)
+
+                handles = []
+                if show_graph:
+                    handles.extend([
+                        Line2D([0], [0], color="#0080ff", label="left / right"),
+                        Line2D([0], [0], color="#ff2020", label="up / down"),
+                    ])
+                if show_cell_legend:
+                    labels = (
+                        (CellType.ROW_HEADER, "Заголовок строки"),
+                        (CellType.COLUMN_HEADER, "Заголовок столбца"),
+                        (CellType.EMPTY, "Пустая ячейка"),
+                        (CellType.VALUE, "Ячейка со значением"),
+                    )
+                    handles.extend(
+                        Line2D([0], [0], marker="o" if show_graph else "s", linestyle="none",
+                               color=COLORS[cell_type], label=label)
+                        for cell_type, label in labels
+                    )
+                ax.legend(handles=handles, loc="upper right", fontsize=8)
             ax.set_xlim(-0.5, width - 0.5)
             ax.set_ylim(height - 0.5, -0.5)
             ax.set_axis_off()

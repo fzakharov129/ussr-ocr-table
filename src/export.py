@@ -365,14 +365,26 @@ def export_result(
     folder.mkdir(parents=True, exist_ok=True)
     json_path = folder / config["paths"]["json_name"]
     xlsx_path = folder / config["paths"]["xlsx_name"]
+    from .corrected_tables import _copy_corrected_pages
     from .page_tables import save_page_tables
 
-    pages_dir = save_page_tables(page_tables["pages"], folder, config["axis_label"])
+    saved_pages = []
+    pages_dir = save_page_tables(
+        page_tables["pages"], folder, config["axis_label"], saved_paths=saved_pages,
+    )
     _write_xlsx(xlsx_path, result.document_name, result.table, config["axis_label"])
     temporary = json_path.with_suffix(".tmp.json")
     temporary.write_text(json_text, encoding="utf-8")
     temporary.replace(json_path)
-    return {"json": json_path, "xlsx": xlsx_path, "pages_dir": pages_dir}
+    corrected = folder / "corrected"
+    if (corrected / "pages_xlsx").exists() or (corrected / "pages_manifest.json").exists():
+        corrected_key = "corrected_existing"
+        corrected_dir = corrected / "pages_xlsx"
+    else:
+        corrected_key = "corrected_created"
+        corrected_dir = _copy_corrected_pages(folder, sorted(saved_pages))
+    return {"json": json_path, "xlsx": xlsx_path, "pages_dir": pages_dir,
+            corrected_key: corrected_dir}
 
 
 def export_book(

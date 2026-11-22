@@ -148,7 +148,7 @@ def assemble_page_tables(data):
                 records=records, issues=issues)
 
 
-def save_page_tables(pages, output_dir, axis_label="Строка / Столбец"):
+def save_page_tables(pages, output_dir, axis_label="Строка / Столбец", *, saved_paths=None):
     from .export import _write_xlsx
 
     if not isinstance(pages, dict) or not pages:
@@ -169,4 +169,6 @@ def save_page_tables(pages, output_dir, axis_label="Строка / Столбе�
             _write_xlsx(path, page_name, table, axis_label)
         for path in prepared.iterdir():
             path.replace(folder / path.name)
+            if saved_paths is not None:
+                saved_paths.append(folder / path.name)
     return folder
